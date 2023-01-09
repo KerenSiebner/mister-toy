@@ -15,7 +15,7 @@ export function HomePage() {
     // const imgUrl = 'logo.png'
     return (
         <section>
-            <p>hi</p>
+            <p>Welcome to my toy store!</p>
         </section >
     )
 
