@@ -34,6 +34,9 @@ function query(filterBy = getDefaultFilter()) {
             if (filterBy.inStock) {
                 toys = toys.filter(toy => toy.inStock)
             }
+            if(filterBy.labels){
+                toys = toys.filter(toy => toy.labels.include(filterBy.labels))
+            }
             return toys
         })
 }
@@ -63,7 +66,7 @@ function save(toy) {
 }
 
 function getDefaultFilter() {
-    return { name: '', inStock: null }
+    return { name: '', inStock: null, labels: [] }
 }
 function getEmptyToy() {
     return {

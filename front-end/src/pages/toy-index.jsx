@@ -2,16 +2,17 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 import { toyService } from '../services/toy.service.js'
-import {ToyList} from '../cmps/toy-list.jsx'
-import {ToyDetails} from '../cmps/toy-details.jsx'
+import { ToyList } from '../cmps/toy-list.jsx'
+import { ToyDetails } from '../cmps/toy-details.jsx'
+import { ToyFilter } from '../cmps/toy-filter.jsx'
 import { loadToys, removeToy, saveToy } from '../store/toy.action.js'
 import { showSuccessMsg, showErrorMsg } from '../services/event-bus.service.js'
 import { useEffect } from 'react'
 import { useState } from 'react'
 
 
-export function ToyIndex(){
-    const toys = useSelector((storeState)=>storeState.toyModule.toys)
+export function ToyIndex() {
+    const toys = useSelector((storeState) => storeState.toyModule.toys)
     const [selectedToy, setSelectedToy] = useState(null)
 
     useEffect(() => {
@@ -62,28 +63,33 @@ export function ToyIndex(){
             })
     }
 
-    function onToyDetails(toy){
+    function onToyDetails(toy) {
         setSelectedToy(toy)
     }
 
-    function onToggleToyDetails(){
+    function onToggleToyDetails() {
         setSelectedToy(null)
     }
 
+    function setFilter(filterBy) {
+        onLoadToys(filterBy)
+    }
+
     return <section>
-        <p>Toy Store</p>
-       {selectedToy && <ToyDetails 
-       selectedToy={selectedToy} 
-       top={<h2>Toy Details</h2>}
-       onToggleToyDetails={onToggleToyDetails}
-       />}
+        <h1>Toy Store</h1>
+        {selectedToy && <ToyDetails
+            selectedToy={selectedToy}
+            top={<h2>Toy Details</h2>}
+            onToggleToyDetails={onToggleToyDetails}
+        />}
         <button onClick={onAddToy}>Add random toy</button>
+        <ToyFilter onSetFilter={setFilter} />
         <ToyList
-                toys={toys}
-                onRemoveToy={onRemoveToy}
-                onEditToy={onEditToy}
-                onToyDetails={onToyDetails}
-                // addToToyt={addToToyt}
-            />
+            toys={toys}
+            onRemoveToy={onRemoveToy}
+            onEditToy={onEditToy}
+            onToyDetails={onToyDetails}
+        // addToToyt={addToToyt}
+        />
     </section>
 }

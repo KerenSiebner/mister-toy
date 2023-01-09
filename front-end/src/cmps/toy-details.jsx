@@ -7,8 +7,8 @@ export function ToyDetails({top, selectedToy,onToggleToyDetails}) {
         <section className="toy-details">
             {top}
             <p>{selectedToy.name}</p>
-            <p>Price:  ${selectedToy.price}
-            </p>Labels: {selectedToy.labels}
+            <p>Price:  ${selectedToy.price}</p>
+            <p>Labels: {selectedToy.labels}</p>      
             <button onClick={closeDetailsModal}>Back</button>
         </section>
     )

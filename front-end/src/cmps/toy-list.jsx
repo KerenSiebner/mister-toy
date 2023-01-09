@@ -4,17 +4,16 @@ import { ToyPreview } from "./toy-preview.jsx"
 
 
 export function ToyList({ toys, onRemoveToy, onEditToy, onToyDetails, addToCart, nums }) {
-    console.log('nums:', nums)
     return <ul className="toy-list">
         {toys.map(toy =>
             <li className="toy-preview" key={toy._id}>
+                <button onClick={() => { onRemoveToy(toy._id) }}>x</button>
                 <ToyPreview toy={toy} />
                 <div>
-                    <button onClick={() => { onRemoveToy(toy._id) }}>x</button>
                     <button onClick={() => { onEditToy(toy) }}>Change price</button>
                     <button onClick={() => { onToyDetails(toy) }}>Details</button>
                 </div>
-{/* 
+                {/* 
                 <button className="buy" onClick={() => { addToCart(toy) }}>
                     Add to Cart
                 </button> */}
