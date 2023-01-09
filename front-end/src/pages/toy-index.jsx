@@ -25,7 +25,7 @@ export function ToyIndex(){
     }
 
     return <section>
-        <p>Toy index</p>
+        <p>Toy Store</p>
         <ToyList
                 toys={toys}
                 // onRemoveToy={onRemoveToy}

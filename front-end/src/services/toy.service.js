@@ -60,7 +60,7 @@ function save(toy) {
 }
 
 function getDefaultFilter() {
-    return { name: '', inStock: true }
+    return { name: '', inStock: null }
 }
 function getEmptyToy() {
     return {
@@ -78,26 +78,47 @@ function getRandomToy() {
     }
 }
 function _createToys(){
-    let toys=[]
-    toys.push(_createToy())
-    toys.push(_createToy())
-    toys.push(_createToy())
-    utilService.saveToStorage(STORAGE_KEY, toys)
-    return toys
-}
-
-function _createToy() {
-    return (
+    let toys=[
         {
             "_id": utilService.makeId(),
             "name": "Talking Doll",
             "price": 123,
             "labels": ["Doll", "Battery Powered", "Baby"],
-            "createdAt": 1631031801011,
+            "createdAt": Date.now(),
             "inStock": true
+        }, {
+            "_id": utilService.makeId(),
+            "name": "Frozen Puzzle",
+            "price": 25,
+            "labels": ["Puzzle", "Princess", "Girls"],
+            "createdAt": Date.now(),
+            "inStock": true 
+        } , {
+            "_id": utilService.makeId(),
+            "name": "Guitar",
+            "price": 99,
+            "labels": ["Musical", "Battery Powered"],
+            "createdAt": Date.now(),
+            "inStock": true
+        }, {
+            "_id": utilService.makeId(),
+            "name": "Paint Kit",
+            "price": 99,
+            "labels": ["Art", "Box Game"],
+            "createdAt": Date.now(),
+            "inStock": false          
         }
-    )
+    ]
+
+    utilService.saveToStorage(STORAGE_KEY, toys)
+    return toys
 }
+
+// function _createToy() {
+//     return (
+
+//     )
+// }
 
 // TEST DATA
 // storageService.post(STORAGE_KEY, {vendor: 'Subali Rahok 6', price: 980}).then(x => console.log(x))

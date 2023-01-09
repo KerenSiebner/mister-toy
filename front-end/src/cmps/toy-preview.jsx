@@ -4,7 +4,7 @@ export function ToyPreview({ toy }) {
 
         <article>
             <h4>{toy.vendor}</h4>
-            <h1>⛐</h1>
+            <h1>🧸</h1>
             <p>Name: <span>{toy.name}</span></p>
             <p>Price: <span>${toy.price.toLocaleString()}</span></p>
             {/* <NavLink to={`/toy/${toy._id}`}>Details</NavLink> |
