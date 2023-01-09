@@ -1,0 +1,12 @@
+.toy-details {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    background-color: white;
+    border: red 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

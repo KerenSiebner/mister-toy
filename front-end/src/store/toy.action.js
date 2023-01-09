@@ -1,6 +1,6 @@
 import { toyService } from '../services/toy.service.js'
 import { store } from '../store/store.js'
-import { SET_TOYS , SET_IS_LOADING} from '../store/toy.reducer.js'
+import { SET_TOYS , SET_IS_LOADING, REMOVE_TOY, ADD_TOY, UPDATE_TOY} from '../store/toy.reducer.js'
 // import { REMOVE_TOY, SET_TOYS, ADD_TOY, UPDATE_TOY, UNDO_REMOVE_TOY, SET_IS_LOADING } from '../store/toy.reducer.js'
 
 export function loadToys(filterBy) {
@@ -29,26 +29,29 @@ export function loadToys(filterBy) {
 //         })
 // }
 
-// export function removeToyNormal(toyId) {
-//     return toyService.remove(toyId)
-//         .then(() => {
-//             store.dispatch({ type: REMOVE_TOY, toyId })
-//         })
-//         .catch(err => {
-//             console.log('Had issues Removing toy', err)
-//             throw err
-//         })
-// }
+export function removeToy(toyId) {
+    return toyService.remove(toyId)
+        .then(() => {
+            store.dispatch({ type: REMOVE_TOY, toyId })
+        })
+        .catch(err => {
+            console.log('Had issues Removing toy', err)
+            throw err
+        })
+}
 
-// export function saveToy(toy) {
-//     const type = (toy._id) ? UPDATE_TOY : ADD_TOY
-//     return toyService.save(toy)
-//         .then(savedToy => {
-//             store.dispatch({ type, toy: savedToy })
-//             return savedToy
-//         })
-//         .catch(err => {
-//             console.error('Cannot save toy:', err)
-//             throw err
-//         })
-// }
+export function saveToy(toy) {
+    console.log('toy', toy)
+    const type = (toy._id) ? UPDATE_TOY : ADD_TOY
+    console.log('type', type)
+    return toyService.save(toy)
+        .then(savedToy => {
+            console.log('savedToy', savedToy)
+            store.dispatch({ type, toy: savedToy })
+            return savedToy
+        })
+        .catch(err => {
+            console.error('Cannot save toy:', err)
+            throw err
+        })
+}

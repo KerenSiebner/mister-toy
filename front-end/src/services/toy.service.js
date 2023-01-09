@@ -46,16 +46,19 @@ function getById(toyId) {
 
 function remove(toyId) {
     // return Promise.reject('Not now!')
-    return httpService.delete(BASE_URL + toyId)
+    // return httpService.delete(BASE_URL + toyId)
+    return storageService.remove(STORAGE_KEY,toyId)
 }
 
 function save(toy) {
     if (toy._id) {
-        return httpService.put(BASE_URL, toy)
+        return storageService.put(STORAGE_KEY, toy)
+        // return httpService.put(BASE_URL, toy)
     } else {
         // when switching to backend - remove the next line
         // toy.owner = userService.getLoggedinUser()
-        return httpService.post(BASE_URL, toy)
+        return storageService.post(STORAGE_KEY, toy)
+        // return httpService.post(BASE_URL, toy)
     }
 }
 
@@ -71,10 +74,11 @@ function getEmptyToy() {
 
 function getRandomToy() {
     return {
-        name: '',
-        inStock: true,
+        name: 'Toy',
+        price: utilService.getRandomIntInclusive(10, 200),
         label: '',
-        price: utilService.getRandomIntInclusive(1000, 9000),
+        createdAt: Date.now(),
+        inStock: true,
     }
 }
 function _createToys(){
