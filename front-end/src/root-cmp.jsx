@@ -9,6 +9,8 @@ import { store } from './store/store.js';
 import { AppHeader } from './cmps/app-header.jsx';
 // import { AppFooter } from './cmps/app-footer';
 import { ToyIndex } from './pages/toy-index';
+import { ToyDetails } from './cmps/toy-details'
+
 
 
 
@@ -23,8 +25,9 @@ export function App() {
         <Routes>
           <Route element={<HomePage />} path="/" />
           <Route element={<Dashboard/>} path ="/dashboard" />
+          <Route element={<ToyDetails />} path="/toy/details/:toyId" />
           {/* // <Route element={<AboutUs />} path="/about" />*/}
-          <Route element={<ToyIndex />} path="/toys" />
+          <Route element={<ToyIndex />} path="/toy" />
 
         </Routes>
       {/* </main> */}

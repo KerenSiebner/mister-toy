@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link,  useSearchParams } from 'react-router-dom'
+
 
 import { toyService } from '../services/toy.service.js'
 import { ToyList } from '../cmps/toy-list.jsx'
@@ -14,6 +15,8 @@ import { useState } from 'react'
 export function ToyIndex() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
     const [selectedToy, setSelectedToy] = useState(null)
+    // const [searchParams, setSearchParams] = useSearchParams()
+    // const queryFilterBy = carService.getFilterFromSearchParams(searchParams)
 
     useEffect(() => {
         onLoadToys()

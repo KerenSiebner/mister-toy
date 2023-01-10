@@ -6,7 +6,7 @@ import { httpService } from './http.service.js'
 const STORAGE_KEY = 'toyDB'
 const BASE_URL = 'toy/'
 
-_createToys()
+// _createToys()
 
 export const toyService = {
     query,
@@ -18,50 +18,55 @@ export const toyService = {
     getDefaultFilter
 }
 
+const labels = ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"]
+
 
 // function query(filterBy = getDefaultFilter()) {
 //     const queryParams = `?name=${filterBy.txt}&inStock=${filterBy.inStock}`
 //     return httpService.get(BASE_URL + queryParams)
 // }
 
-function query(filterBy = getDefaultFilter()) {
-    return storageService.query(STORAGE_KEY)
-        .then(toys => {
-            if (filterBy.name) {
-                const regex = new RegExp(filterBy.name, 'i')
-                toys = toys.filter(toy => regex.test(toy.name))
-            }
-            if (filterBy.inStock) {
-                toys = toys.filter(toy => toy.inStock)
-            }
-            // if(filterBy.labels){
-            //     toys = toys.filter(toy => toy.labels.include(filterBy.labels))
-            // }
-            return toys
-        })
+function query(filterBy = getDefaultFilter()) {   
+    return httpService.get('toy', { params:  {filterBy}  })
+
+    // return storageService.query(STORAGE_KEY)
+    //     .then(toys => {
+    //         if (filterBy.name) {
+    //             const regex = new RegExp(filterBy.name, 'i')
+    //             toys = toys.filter(toy => regex.test(toy.name))
+    //         }
+    //         if (filterBy.inStock) {
+    //             toys = toys.filter(toy => toy.inStock)
+    //         }
+    //         // if(filterBy.labels){
+    //         //     toys = toys.filter(toy => toy.labels.include(filterBy.labels))
+    //         // }
+    //         return toys
+    //     })
 }
 
 
 
 function getById(toyId) {
-    return storageService.get(STORAGE_KEY, toyId)
+    // return storageService.get(STORAGE_KEY, toyId)
+    return httpService.get(BASE_URL + toyId)
 }
 
 function remove(toyId) {
     // return Promise.reject('Not now!')
-    // return httpService.delete(BASE_URL + toyId)
-    return storageService.remove(STORAGE_KEY,toyId)
+    return httpService.delete(BASE_URL + toyId)
+    // return storageService.remove(STORAGE_KEY,toyId)
 }
 
 function save(toy) {
     if (toy._id) {
-        return storageService.put(STORAGE_KEY, toy)
-        // return httpService.put(BASE_URL, toy)
+        // return storageService.put(STORAGE_KEY, toy)
+        return httpService.put(BASE_URL, toy)
     } else {
         // when switching to backend - remove the next line
         // toy.owner = userService.getLoggedinUser()
-        return storageService.post(STORAGE_KEY, toy)
-        // return httpService.post(BASE_URL, toy)
+        // return storageService.post(STORAGE_KEY, toy)
+        return httpService.post(BASE_URL, toy)
     }
 }
 
@@ -79,11 +84,14 @@ function getRandomToy() {
     return {
         name: 'Toy',
         price: utilService.getRandomIntInclusive(10, 200),
-        label: '',
+        label: [labels[utilService.getRandomIntInclusive(0,7)]],
         createdAt: Date.now(),
         inStock: true,
     }
 }
+
+
+
 function _createToys(){
     let toys=[
         {

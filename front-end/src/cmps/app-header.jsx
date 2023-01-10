@@ -22,7 +22,7 @@ export function AppHeader() {
             <nav>
                 <NavLink to="/">Home</NavLink> |
                 <NavLink to="/dashboard">Dashboard</NavLink> |
-                <NavLink to="/toys">Toys</NavLink> |
+                <NavLink to="/toy">Toys</NavLink> |
             </nav>
 
         </header>

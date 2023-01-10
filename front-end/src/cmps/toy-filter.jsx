@@ -3,26 +3,16 @@ import Select from 'react-select'
 
 import { useEffect, useRef, useState } from "react"
 import { toyService } from "../services/toy.service.js"
-import { utilService } from "../services/util.service.js"
+// import { utilService } from "../services/util.service.js"
 
 
 export function ToyFilter({ onSetFilter }) {
 
     const [filterByToEdit, setFilterByToEdit] = useState(toyService.getDefaultFilter())
 
-    // onSetFilter = useRef(utilService.debounce(onSetFilter))
-    // const elInputRef = useRef(null)
-
     useEffect(() => {
         onSetFilter(filterByToEdit)
     }, [filterByToEdit])
-    // elInputRef.current.focus()
-    // }, [])
-
-    // useEffect(() => {
-    //     // update father cmp that filters change very type
-    //     onSetFilter.current(filterByToEdit)
-    // }, [filterByToEdit])
 
     function handleChange({ target }) {
         // let { value, name: field, type } = target
@@ -45,12 +35,6 @@ export function ToyFilter({ onSetFilter }) {
         // const value = target.selectedOptions
         // console.log('value', value)
         // setFilterByToEdit((prevFilter) => ({ ...prevFilter, [field]: value }))
-    }
-    
-    function onSubmitFilter(ev) {
-        // update father cmp that filters change on submit
-        ev.preventDefault()
-        onSetFilter(filterByToEdit)
     }
 
     const options = [

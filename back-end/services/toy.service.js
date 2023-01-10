@@ -11,6 +11,7 @@ module.exports = {
 }
 
 function query(filterBy) {
+    if (!filterBy) return Promise.resolve(toys)
     let filteredToys = toys
     if (filterBy.name) {
         const regex = new RegExp(filterBy.name, 'i')
@@ -19,9 +20,9 @@ function query(filterBy) {
     if (filterBy.inStock) {
         toys = toys.filter(toy => toy.inStock)
     }
-    if(filterBy.labels){
-        toys = toys.filter(toy => toy.labels.include(filterBy.labels))
-    }
+    // if(filterBy.labels){
+    //     toys = toys.filter(toy => toy.labels.include(filterBy.labels))
+    // }
     return Promise.resolve(filteredToys)
 }
 
@@ -35,7 +36,7 @@ function remove(toyId, loggedinUser) {
     const idx = toys.findIndex(toy => toy._id === toyId)
     if (idx === -1) return Promise.reject('No Such Toy')
     const toy = toys[idx]
-    if (toy.owner._id !== loggedinUser._id) return Promise.reject('Not your Toy')
+    // if (toy.owner._id !== loggedinUser._id) return Promise.reject('Not your Toy')
     toys.splice(idx, 1)
     return _writeToysToFile()
 }
