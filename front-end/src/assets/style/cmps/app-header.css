@@ -2,6 +2,16 @@
     background-color: var(--clr1);
     color: var(--clr1bg);
     padding: 1em;
+    
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    color: white;
+    font-family: 'Manjari';
+    font-size: 1.2em;
   }
   
   @media(max-width: 720px) {

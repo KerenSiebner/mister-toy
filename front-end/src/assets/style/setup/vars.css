@@ -1,10 +1,11 @@
 :root {
-    --clr1: #0a9396;
-    --clr2: brown;
+    --clr1: #0075e3;
+    /* hover btn */
+    --clr2: #0075e377;
   
-    --list-bg: #f3937e;
+    --list-bg: #f3947e58;
     --clr1bg-light: #c1f1e1;
-    --btn-bg: #a32f3160;
+    --btn-bg: #f4f1f1ed;
     --clr2bg-light: #e9d8a6;
   
     --gray1: rgb(240, 240, 240);

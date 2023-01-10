@@ -16,16 +16,16 @@ ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend, CategoryScale,
     Title,
     Tooltip,
     Legend);
-    
-    
-    export function Dashboard() {
-        const data = {
+
+
+export function Dashboard() {
+    const data = {
         labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
         // labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [
             {
                 label: 'Number of toys',
-                data: [12, 19, 3, 5, 2, 3,5,15],
+                data: [12, 19, 3, 5, 2, 3, 5, 15],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -76,12 +76,15 @@ ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend, CategoryScale,
     };
 
     return (
-        <div style={{ display:'flex' , margin:'20px 50px'}}>
-            <div style={{width: '50%'}}>
-            <Doughnut data={data} />
-            </div>
-            <div style={{width: '50%'}}>
-            <Bar options={options} data={chartData} />;
+        <div>
+            <h1 style={{ textAlign: 'center', margin: '40px' }}>My dashboard</h1>
+            <div style={{ display: 'flex', margin: '20px 50px' }}>
+                <div style={{ width: '50%' }}>
+                    <Doughnut data={data} />
+                </div>
+                <div style={{ width: '50%' }}>
+                    <Bar options={options} data={chartData} />;
+                </div>
             </div>
         </div>
     )

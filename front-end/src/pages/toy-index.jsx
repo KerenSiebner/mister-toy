@@ -79,14 +79,17 @@ export function ToyIndex() {
     }
 
     return <section>
-        <h1>Toy Store</h1>
+        <div className='toy-intro'>
+        <h1>Shop Toys!</h1>
+        <p>Adventure in for playtime's best! Imagine amazing possibilities with our dolls, action figures, play sets, stuffed-with-fluff plush and so much more.</p>
+        </div>
         {selectedToy && <ToyDetails
             selectedToy={selectedToy}
             top={<h2>Toy Details</h2>}
             onToggleToyDetails={onToggleToyDetails}
         />}
-        <button onClick={onAddToy}>Add random toy</button>
         <ToyFilter onSetFilter={setFilter} />
+        <button className='add-toy-btn' onClick={onAddToy}>Add random toy</button>
         <ToyList
             toys={toys}
             onRemoveToy={onRemoveToy}

@@ -1,7 +1,7 @@
 import './assets/style/main.css'
 
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-// import { AboutUs } from "./pages/about-us";
+import { About } from "./pages/about.jsx";
 import { HomePage } from './pages/home-page.jsx';
 import { Dashboard } from './pages/dashboard.jsx';
 import { Provider } from 'react-redux';
@@ -26,7 +26,7 @@ export function App() {
           <Route element={<HomePage />} path="/" />
           <Route element={<Dashboard/>} path ="/dashboard" />
           <Route element={<ToyDetails />} path="/toy/details/:toyId" />
-          {/* // <Route element={<AboutUs />} path="/about" />*/}
+          <Route element={<About />} path="/about" />
           <Route element={<ToyIndex />} path="/toy" />
 
         </Routes>

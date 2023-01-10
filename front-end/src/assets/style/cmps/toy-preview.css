@@ -1,0 +1,25 @@
+.toy-preview{
+text-align: center;
+}
+.toy-img{
+    width: 200px;
+    height:200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.doll{
+    background-image: url('../../img/doll.webp');
+}
+.guitar{
+    background-image: url('../../img/kids-guitar-toy.jpeg');
+}
+
+.puzzle{
+    background-image: url('../../img/puzzle.webp');
+}
+
+.paint{
+    background-image: url('../../img/paint-kit.webp');
+}

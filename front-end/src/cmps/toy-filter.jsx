@@ -1,10 +1,16 @@
 import Select from 'react-select'
-
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
 
 import { useEffect, useRef, useState } from "react"
 import { toyService } from "../services/toy.service.js"
 // import { utilService } from "../services/util.service.js"
 
+const SearchSchema = Yup.object().shape({
+    name: Yup.string()
+        .min(2, 'Too Short!')
+        .max(7, 'Too Long!')
+});
 
 export function ToyFilter({ onSetFilter }) {
 
