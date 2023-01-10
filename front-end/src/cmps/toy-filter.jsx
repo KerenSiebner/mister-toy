@@ -65,22 +65,23 @@ export function ToyFilter({ onSetFilter }) {
     ]
 
     return <section className="toy-filter full main-layout">
-        <form onSubmit={onSubmitFilter}>
+        <form>
             <label htmlFor="name"></label>
             <input type="text"
+            className="filter-txt"
                 id="name"
-                name="txt"
+                name="name"
                 placeholder="Search toy by name..."
-                value={filterByToEdit.txt}
+                value={filterByToEdit.name}
                 onChange={handleChange}
             // ref={elInputRef}
             />
-            <br /><br />
-            <input type="checkbox" name = "inStock" onClick={handleClick}/>
-            <label htmlFor="inStock">Show only in stock</label>
 
             <br /><br />
             <Select name="labels" options={options} isMulti onChange={handleLabelSelect}/>
+            <br />
+            <input type="checkbox" name = "inStock" onClick={handleClick}/>
+            <label htmlFor="inStock">Show only in stock</label>
             <button hidden>Filter</button>
         </form>
 

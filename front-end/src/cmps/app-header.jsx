@@ -21,6 +21,7 @@ export function AppHeader() {
         <header className="app-header">
             <nav>
                 <NavLink to="/">Home</NavLink> |
+                <NavLink to="/dashboard">Dashboard</NavLink> |
                 <NavLink to="/toys">Toys</NavLink> |
             </nav>
 

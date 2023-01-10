@@ -3,6 +3,7 @@ import './assets/style/main.css'
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 // import { AboutUs } from "./pages/about-us";
 import { HomePage } from './pages/home-page.jsx';
+import { Dashboard } from './pages/dashboard.jsx';
 import { Provider } from 'react-redux';
 import { store } from './store/store.js';
 import { AppHeader } from './cmps/app-header.jsx';
@@ -21,6 +22,7 @@ export function App() {
             {/* // <main> */}
         <Routes>
           <Route element={<HomePage />} path="/" />
+          <Route element={<Dashboard/>} path ="/dashboard" />
           {/* // <Route element={<AboutUs />} path="/about" />*/}
           <Route element={<ToyIndex />} path="/toys" />
 
