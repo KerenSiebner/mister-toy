@@ -5,27 +5,31 @@
         "price": 123,
         "labels": ["Doll", "Battery Powered", "Baby"],
         "createdAt": 1673302430009,
-        "inStock": true
+        "inStock": true,
+        "imgUrl": "doll"
     }, {
         "_id": "jksdhg1",
         "name": "Frozen Puzzle",
         "price": 25,
         "labels": ["Puzzle", "Princess", "Girls"],
         "createdAt": 1673302430039,
-        "inStock": true 
+        "inStock": true ,
+        "imgUrl": "puzzle"
     } , {
         "_id": "djkhga5",
         "name": "Guitar",
         "price": 99,
         "labels": ["Musical", "Battery Powered"],
         "createdAt": 1673302470009,
-        "inStock": true
+        "inStock": true,
+        "imgUrl": "guitar"
     }, {
         "_id": "8436fdg",
         "name": "Paint Kit",
         "price": 99,
         "labels": ["Art", "Box Game"],
         "createdAt": 1673302430119,
-        "inStock": false          
+        "inStock": false,
+        "imgUrl": "paint"          
     }
-]
+  ]

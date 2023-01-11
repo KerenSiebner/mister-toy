@@ -1,6 +1,6 @@
 import { toyService } from '../services/toy.service.js'
-import { store } from '../store/store.js'
-import { SET_TOYS , SET_IS_LOADING, REMOVE_TOY, ADD_TOY, UPDATE_TOY} from '../store/toy.reducer.js'
+import { store } from './store.js'
+import { SET_TOYS , SET_IS_LOADING, REMOVE_TOY, ADD_TOY, UPDATE_TOY} from './toy.reducer.js'
 
 export function loadToys(filterBy) {
     console.log('filterBy', filterBy)

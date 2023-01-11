@@ -15,10 +15,10 @@ function query(filterBy) {
     let filteredToys = toys
     if (filterBy.name) {
         const regex = new RegExp(filterBy.name, 'i')
-        toys = toys.filter(toy => regex.test(toy.name))
+        filteredToys = toys.filter(toy => regex.test(toy.name))
     }
-    if (filterBy.inStock) {
-        toys = toys.filter(toy => toy.inStock)
+    if (filterBy.inStock==='true') {
+        filteredToys = toys.filter(toy => toy.inStock)
     }
     // if(filterBy.labels){
     //     toys = toys.filter(toy => toy.labels.include(filterBy.labels))

@@ -15,10 +15,12 @@ const SearchSchema = Yup.object().shape({
 export function ToyFilter({ onSetFilter }) {
 
     const [filterByToEdit, setFilterByToEdit] = useState(toyService.getDefaultFilter())
+    const [selectedLabel, setSelectedLabel] = useState([])
 
     useEffect(() => {
+        console.log('selectedLabel', selectedLabel)
         onSetFilter(filterByToEdit)
-    }, [filterByToEdit])
+    }, [filterByToEdit,setSelectedLabel])
 
     function handleChange({ target }) {
         // let { value, name: field, type } = target
@@ -36,11 +38,12 @@ export function ToyFilter({ onSetFilter }) {
         setFilterByToEdit((prevFilter) => ({ ...prevFilter, [field]: value }))
     }
     
-    function handleLabelSelect({target}){
-        // const field = target.name
-        // const value = target.selectedOptions
-        // console.log('value', value)
-        // setFilterByToEdit((prevFilter) => ({ ...prevFilter, [field]: value }))
+    function handleLabelSelect(){
+        setSelectedLabel(selectedLabel)
+        console.log('filterByToEdit.labels', filterByToEdit.labels)
+        console.log('selectedLabel', selectedLabel)
+        // const newLabels = filterByToEdit.labels.push(selectedLabel)
+        // setFilterByToEdit((prevFilter) => ({ ...prevFilter, labels: newLabels }))
     }
 
     const options = [
@@ -68,7 +71,10 @@ export function ToyFilter({ onSetFilter }) {
             />
 
             <br /><br />
-            <Select name="labels" options={options} isMulti onChange={handleLabelSelect}/>
+            <Select name="labels" options={options}
+            value={selectedLabel}
+            isMulti onChange={setSelectedLabel}/>
+            {/* isMulti onChange={handleLabelSelect}/> */}
             <br />
             <input type="checkbox" name = "inStock" onClick={handleClick}/>
             <label htmlFor="inStock">Show only in stock</label>

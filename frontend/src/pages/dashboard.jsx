@@ -10,12 +10,7 @@ import { Bar, Doughnut, PolarArea, Chart } from 'react-chartjs-2';
 import { utilService } from '../services/util.service';
 
 
-ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend, CategoryScale,
-    LinearScale,
-    BarElement,
-    Title,
-    Tooltip,
-    Legend);
+ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend, CategoryScale,LinearScale,BarElement,Title);
 
 
 export function Dashboard() {
@@ -83,7 +78,7 @@ export function Dashboard() {
                     <Doughnut data={data} />
                 </div>
                 <div style={{ width: '50%' }}>
-                    <Bar options={options} data={chartData} />;
+                    <Bar options={options} data={chartData} />
                 </div>
             </div>
         </div>
