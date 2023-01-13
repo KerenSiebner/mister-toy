@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c7cdd19.css",
+    "main.js": "/static/js/main.3f1204ac.js",
+    "static/media/puzzle.webp": "/static/media/puzzle.160793f051d89d011888.webp",
+    "static/media/paint-kit.webp": "/static/media/paint-kit.68c763ccdee0105b8289.webp",
+    "static/media/kids-guitar-toy.jpeg": "/static/media/kids-guitar-toy.964ef6f4024b2b1b7003.jpeg",
+    "static/media/doll.webp": "/static/media/doll.3e40108398567caac480.webp",
+    "index.html": "/index.html",
+    "main.3c7cdd19.css.map": "/static/css/main.3c7cdd19.css.map",
+    "main.3f1204ac.js.map": "/static/js/main.3f1204ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c7cdd19.css",
+    "static/js/main.3f1204ac.js"
+  ]
+}
