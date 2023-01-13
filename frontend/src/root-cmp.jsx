@@ -1,4 +1,4 @@
-import './assets/style/main.css'
+import './assets/style/main.scss'
 
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { About } from "./pages/about.jsx";

@@ -1,0 +1,22 @@
+.app-header {
+    background-color: $clr1;
+    color: $clr1;
+    padding: 1em;
+    
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    color: white;
+    font-family: 'Manjari';
+    font-size: 1.2em;
+  }
+  
+  @media(max-width: 720px) {
+    .app-header {
+      color: $clr1;
+    }
+  }
+  
