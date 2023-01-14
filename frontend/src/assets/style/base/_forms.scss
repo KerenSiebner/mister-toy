@@ -20,6 +20,6 @@ button[disabled] {
     cursor: not-allowed;
 }
 input:focus {
-    background-color: $clr1;
+    border-color: $clr1;
     transition: background-color 1s;
 }

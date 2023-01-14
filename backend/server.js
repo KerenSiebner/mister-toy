@@ -27,8 +27,12 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const toyRoutes = require('./api/toy/toy.routes.js')
+const userRoutes = require('./api/user/user.routes.js')
+
 
 app.use('/api/toy', toyRoutes)
+app.use('/api/user', userRoutes)
+
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with

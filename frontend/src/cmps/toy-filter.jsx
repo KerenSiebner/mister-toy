@@ -58,7 +58,7 @@ export function ToyFilter({ onSetFilter }) {
     ]
 
     return <section className="toy-filter full main-layout">
-        <form>
+        <form className='main-toy-form'>
             <label htmlFor="name"></label>
             <input type="text"
             className="filter-txt"
@@ -76,7 +76,7 @@ export function ToyFilter({ onSetFilter }) {
             isMulti onChange={setSelectedLabel}/>
             {/* isMulti onChange={handleLabelSelect}/> */}
             <br />
-            <input type="checkbox" name = "inStock" onClick={handleClick}/>
+            <input type="checkbox" name = "inStock" id="inStock" onClick={handleClick}/>
             <label htmlFor="inStock">Show only in stock</label>
             <button hidden>Filter</button>
         </form>

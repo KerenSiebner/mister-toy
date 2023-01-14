@@ -1,31 +1,45 @@
-// const { useState } = React
-// const { useSelector, useDispatch } = ReactRedux
-
 // import { userService } from '../services/user.service.js'
-// import { SET_USER } from '../store/user.reducer.js'
+import { SET_USER } from '../store/user.reducer.js'
 // import { TOGGLE_CART_SHOWN } from '../store/car.reducer.js'
-// import { logout } from '../store/user.action.js'
+import { logout } from '../store/user.action.js'
 
-// import { LoginSignup } from './login-signup.jsx'
-// import { useDispatch, useSelector } from 'react-redux'
-import { NavLink } from 'react-router-dom'
+// import { LoginSignup } from '../pages/login-signup'
+import { useDispatch, useSelector } from 'react-redux'
+import { NavLink, Link } from 'react-router-dom'
 
 export function AppHeader() {
 
-    // function onToggleCart(ev) {
-    //     ev.preventDefault()
-    //     dispatch({ type: TOGGLE_CART_SHOWN })
-    // }
+    const user = useSelector((storeState => storeState.userModule.user))
+
+    const dispatch = useDispatch()
+
+    function setUser(user) {
+        dispatch({ type: SET_USER, user })
+    }
+
+    function onLogout() {
+        logout()
+            .then(() => {
+                setUser(null)
+            })
+    }
 
     return (
         <header className="app-header">
             <nav>
-                <NavLink to="/">Home</NavLink> 
-                <NavLink to="/dashboard">Dashboard</NavLink> 
-                <NavLink to="/toy">Toys</NavLink> 
-                <NavLink to="/about">About</NavLink> 
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/dashboard">Dashboard</NavLink>
+                <NavLink to="/toy">Toys</NavLink>
+                <NavLink to="/about">About</NavLink>
             </nav>
+            {user && <section className="user-info">
+                <p>{user.fullname} <span>${user.score.toLocaleString()}</span></p>
+                <button onClick={onLogout}>Logout</button>
+            </section>}
 
+            {!user && <section className="user-info">
+                <Link to="/user" className='link'>Login</Link>
+            </section>}
         </header>
     )
 }

@@ -5,8 +5,19 @@
     inset: 0;
     margin: auto;
     background-color: white;
-    border: red 2px solid;
+    border: 2px solid $clr1;
+    border-radius: 1em;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
+
+    button {
+        font-family: inherit;
+        background-color: #fff;
+        &:hover {
+            background-color: black;
+        }
+    }
 }
