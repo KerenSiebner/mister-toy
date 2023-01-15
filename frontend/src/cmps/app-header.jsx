@@ -32,9 +32,10 @@ export function AppHeader() {
                 <NavLink to="/toy">Toys</NavLink>
                 <NavLink to="/about">About</NavLink>
             </nav>
-            {user && <section className="user-info">
-                <p>{user.fullname} <span>${user.score.toLocaleString()}</span></p>
+            {user && <section className="user-fullname">
+            
                 <button onClick={onLogout}>Logout</button>
+                <p>Welcome {user.fullname}</p>
             </section>}
 
             {!user && <section className="user-info">

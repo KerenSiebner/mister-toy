@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { SET_USER } from '../store/user.reducer.js'
+// import { SET_USER } from '../store/user.reducer.js'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { useState } from 'react'
@@ -7,26 +7,26 @@ import { showErrorMsg, showSuccessMsg } from '../services/event-bus.service.js'
 import { signup, login } from '../store/user.action.js'
 
 
-function getEmptyCredentials() {
-    return {
-        email: '',
-        password: '',
-        fullname: ''
-    }
-}
+
 
 export function LoginSignup() {
-    const user = useSelector((storeState => storeState.userModule.user))
+    // const user = useSelector((storeState => storeState.userModule.user))
     const [credentials, setCredentials] = useState(getEmptyCredentials())
     const [isSignupState, setIsSignupState] = useState(false)
 
 
-    const dispatch = useDispatch()
+    // const dispatch = useDispatch()
 
-    function setUser(user) {
-        dispatch({ type: SET_USER, user })
+    // function setUser(user) {
+    //     dispatch({ type: SET_USER, user })
+    // }
+    function getEmptyCredentials() {
+        return {
+            username: '',
+            password: '',
+            fullname: ''
+        }
     }
-
 
     function handleCredentialsChange(ev) {
         const field = ev.target.name
@@ -35,8 +35,11 @@ export function LoginSignup() {
     }
 
     function onSubmit(ev) {
+        console.log('ev', ev)
         ev.preventDefault()
         const func= isSignupState ? signup : login
+        console.log('credentials', credentials)
+
         return func(credentials)
         .then ((user)=>{
             showSuccessMsg('Welcome!')
@@ -49,7 +52,7 @@ export function LoginSignup() {
         setIsSignupState(!isSignupState)
     }
 
-    const { email, password, fullname } = credentials
+    const { username, password, fullname } = credentials
 
     return <section className='login-section'>
         <h2>{isSignupState ? 'Sign up' : 'Log in'}</h2>
@@ -57,9 +60,9 @@ export function LoginSignup() {
         <form className='login-form' action="submit" onSubmit={onSubmit}>
             <input
                 type="text"
-                name="email"
-                value={email}
-                placeholder="Enter email"
+                name="username"
+                value={username}
+                placeholder="Enter username"
                 onChange={handleCredentialsChange}
                 required
             />
@@ -85,9 +88,9 @@ export function LoginSignup() {
 
         </form>
         <div className="btns">
-            <a href="#" onClick={onToggleSignupState}>
+            <button onClick={onToggleSignupState}>
                 {isSignupState ? 'Already a member? Login' : 'New user? Signup here'}
-            </a >
+            </button >
         </div>
     </section>
 }

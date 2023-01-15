@@ -1,51 +1,51 @@
-[
-    {
-        "name": "Talking Doll",
-        "price": 123,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1673302430009,
-        "inStock": true,
-        "imgUrl": "doll",
-        "msgs": [{
-            "txt": "Great toy, how much?",
-            "by" : {"fullname": "Puki Ga"}
-            }]
-    }, {
-        "name": "Frozen Puzzle",
-        "price": 25,
-        "labels": ["Puzzle", "Princess", "Girls"],
-        "createdAt": 1673302430039,
-        "inStock": true ,
-        "imgUrl": "puzzle",
-        "msgs": [{
-            "txt": "Anyone can advise?",
-            "by" : {"fullname": "Mister Q"}
-            }]
-    } , {
-        "name": "Guitar",
-        "price": 99,
-        "labels": ["Musical", "Battery Powered"],
-        "createdAt": 1673302470009,
-        "inStock": true,
-        "imgUrl": "guitar",
-        "msgs": [{
-            "txt": "Great toy, how much?",
-            "by" : {"fullname": "Puki Ga"}
-            }]
-    }, {
-        "name": "Paint Kit",
-        "price": 99,
-        "labels": ["Art", "Box Game"],
-        "createdAt": 1673302430119,
-        "inStock": false,
-        "imgUrl": "paint" ,
-        "msgs": [{
-            "txt": "wow",
-            "by" : {"fullname": "Kuki dsg"}
-            },
-            {
-                "txt": "I want to buy another one!",
-                "by" : {"fullname": "Shik Ga"}
-                }]         
-    }
-  ]
+[{
+    "name" : "Talking Doll",
+    "price" : 123.0,
+    "labels" : [ 
+        "Doll", 
+        "Battery Powered", 
+        "Baby"
+    ],
+    "createdAt" : 1673302430009.0,
+    "inStock" : true,
+    "imgUrl" : "doll"
+},{
+    "name" : "Guitar",
+    "price" : 99.0,
+    "labels" : [ 
+        "Musical", 
+        "Battery Powered"
+    ],
+    "createdAt" : 1673302470009.0,
+    "inStock" : true,
+    "imgUrl" : "guitar"
+},
+{
+    "name" : "Paint Kit",
+    "price" : 99.0,
+    "labels" : [ 
+        "Art", 
+        "Box Game"
+    ],
+    "createdAt" : 1673302430119.0,
+    "inStock" : false,
+    "imgUrl" : "paint"
+},
+{
+    "name" : "Toy",
+    "price" : 112,
+    "label" : [ 
+        "Outdoor"
+    ],
+    "createdAt" : 1673645034351.0,
+    "inStock" : true
+},
+{
+    "name" : "Toy",
+    "price" : 50,
+    "label" : [ 
+        "Art"
+    ],
+    "createdAt" : 1673645036349.0,
+    "inStock" : true
+}]

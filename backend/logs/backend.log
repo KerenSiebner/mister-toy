@@ -702,3 +702,215 @@
 14.1.2023, 23:26:05 - DEBUG - Getting Toys 
 14.1.2023, 23:26:06 - INFO - Req was made 
 14.1.2023, 23:26:06 - DEBUG - Getting Toys 
+14.1.2023, 23:45:29 - INFO - Server is running on port: 3030 
+14.1.2023, 23:47:03 - INFO - Server is running on port: 3030 
+14.1.2023, 23:48:51 - INFO - Server is running on port: 3030 
+14.1.2023, 23:48:58 - INFO - Server is running on port: 3030 
+14.1.2023, 23:49:39 - INFO - Req was made 
+14.1.2023, 23:49:39 - DEBUG - Getting Toys 
+14.1.2023, 23:49:39 - INFO - Req was made 
+14.1.2023, 23:49:39 - DEBUG - Getting Toys 
+15.1.2023, 14:50:16 - INFO - Server is running on port: 3030 
+15.1.2023, 15:14:36 - INFO - Server is running on port: 3030 
+15.1.2023, 15:14:41 - INFO - Server is running on port: 3030 
+15.1.2023, 15:32:38 - INFO - Server is running on port: 3030 
+15.1.2023, 15:32:39 - INFO - Server is running on port: 3030 
+15.1.2023, 15:32:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:33:16 - DEBUG - auth.service - login with username: undefined 
+15.1.2023, 15:33:16 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:34:27 - INFO - Server is running on port: 3030 
+15.1.2023, 15:34:41 - INFO - Server is running on port: 3030 
+15.1.2023, 15:34:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:34:49 - INFO - Server is running on port: 3030 
+15.1.2023, 15:34:52 - INFO - Server is running on port: 3030 
+15.1.2023, 15:34:55 - DEBUG - auth.service - login with username: undefined 
+15.1.2023, 15:34:55 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:35:18 - INFO - Server is running on port: 3030 
+15.1.2023, 15:35:52 - INFO - Server is running on port: 3030 
+15.1.2023, 15:35:53 - INFO - Server is running on port: 3030 
+15.1.2023, 15:41:02 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:41:02 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:42:41 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:42:41 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:45:46 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:45:46 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:46:24 - DEBUG - auth.service - login with username: keren 
+15.1.2023, 15:46:24 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:48:18 - INFO - Server is running on port: 3030 
+15.1.2023, 15:48:19 - INFO - Server is running on port: 3030 
+15.1.2023, 15:48:23 - INFO - Server is running on port: 3030 
+15.1.2023, 15:48:30 - DEBUG - auth.service - login with username: keren 
+15.1.2023, 15:48:30 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:48:49 - INFO - Server is running on port: 3030 
+15.1.2023, 15:48:58 - INFO - Server is running on port: 3030 
+15.1.2023, 15:49:10 - INFO - Server is running on port: 3030 
+15.1.2023, 15:49:16 - INFO - Server is running on port: 3030 
+15.1.2023, 15:49:33 - DEBUG - auth.service - login with username: kerens969@gmail.com 
+15.1.2023, 15:49:33 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:49:50 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:28 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:29 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:34 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:40 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:45 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:47 - INFO - Server is running on port: 3030 
+15.1.2023, 15:50:49 - INFO - Server is running on port: 3030 
+15.1.2023, 15:51:00 - DEBUG - auth.service - login with username: kerens969@gmail.com 
+15.1.2023, 15:51:00 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:51:21 - INFO - Server is running on port: 3030 
+15.1.2023, 15:51:22 - INFO - Server is running on port: 3030 
+15.1.2023, 15:51:32 - DEBUG - auth.service - login with username: kerens969@gmail.com 
+15.1.2023, 15:51:32 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:51:56 - INFO - Server is running on port: 3030 
+15.1.2023, 15:53:20 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:53:20 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:53:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:53:50 - INFO - Server is running on port: 3030 
+15.1.2023, 15:54:00 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:54:00 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:54:12 - INFO - Server is running on port: 3030 
+15.1.2023, 15:54:25 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:54:25 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:54:39 - INFO - Server is running on port: 3030 
+15.1.2023, 15:54:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:55:00 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:55:00 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:55:30 - INFO - Server is running on port: 3030 
+15.1.2023, 15:56:45 - INFO - Server is running on port: 3030 
+15.1.2023, 15:56:49 - INFO - Server is running on port: 3030 
+15.1.2023, 15:56:55 - INFO - Server is running on port: 3030 
+15.1.2023, 15:57:08 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:57:08 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:57:50 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:57:50 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:58:17 - INFO - Server is running on port: 3030 
+15.1.2023, 15:58:40 - INFO - Server is running on port: 3030 
+15.1.2023, 15:58:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:58:56 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 15:58:56 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 15:59:21 - INFO - Server is running on port: 3030 
+15.1.2023, 15:59:51 - INFO - Server is running on port: 3030 
+15.1.2023, 15:59:55 - INFO - Server is running on port: 3030 
+15.1.2023, 16:00:03 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 16:00:03 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 16:00:18 - INFO - Server is running on port: 3030 
+15.1.2023, 16:00:50 - INFO - Server is running on port: 3030 
+15.1.2023, 16:00:54 - INFO - Server is running on port: 3030 
+15.1.2023, 16:00:58 - INFO - Server is running on port: 3030 
+15.1.2023, 16:01:05 - INFO - Server is running on port: 3030 
+15.1.2023, 16:01:14 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 16:01:14 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 16:01:27 - INFO - Server is running on port: 3030 
+15.1.2023, 16:02:18 - INFO - Server is running on port: 3030 
+15.1.2023, 16:02:25 - INFO - Server is running on port: 3030 
+15.1.2023, 16:02:33 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 16:02:33 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 16:02:54 - INFO - Server is running on port: 3030 
+15.1.2023, 16:02:58 - INFO - Server is running on port: 3030 
+15.1.2023, 16:03:00 - INFO - Server is running on port: 3030 
+15.1.2023, 16:03:06 - INFO - Server is running on port: 3030 
+15.1.2023, 16:03:08 - INFO - Server is running on port: 3030 
+15.1.2023, 16:03:20 - DEBUG - auth.service - login with username: puki 
+15.1.2023, 16:03:20 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 16:11:44 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:11:44 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:14:47 - INFO - Server is running on port: 3030 
+15.1.2023, 16:14:59 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:14:59 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:14:59 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:16:36 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:39 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:42 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:50 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:53 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:55 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:56 - INFO - Server is running on port: 3030 
+15.1.2023, 16:16:59 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:08 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:13 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:20 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:17:20 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:17:20 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:17:38 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:44 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:46 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:51 - INFO - Server is running on port: 3030 
+15.1.2023, 16:17:54 - INFO - Server is running on port: 3030 
+15.1.2023, 16:18:01 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:18:01 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:18:01 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:18:25 - INFO - Server is running on port: 3030 
+15.1.2023, 16:18:43 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:18:43 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:18:43 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:19:01 - INFO - Server is running on port: 3030 
+15.1.2023, 16:19:05 - INFO - Server is running on port: 3030 
+15.1.2023, 16:19:11 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:19:11 - DEBUG - auth.service - signup with username: [object Object], fullname: undefined 
+15.1.2023, 16:19:11 - ERROR - Failed to signup fullname, username and password are required! 
+15.1.2023, 16:19:49 - INFO - Server is running on port: 3030 
+15.1.2023, 16:19:55 - DEBUG - {"username":"shiki","password":"shiki","fullname":"shiki hopa"} 
+15.1.2023, 16:19:55 - DEBUG - auth.service - signup with username: shiki, fullname: shiki hopa 
+15.1.2023, 16:19:55 - DEBUG - auth.route - new account created: {"username":"shiki","password":"$2b$10$iZnC3Ht/i2VBCBIK2qR3mu90yQtzr3KvbAGhHawm0EdDD0aYr5WmO","fullname":"shiki hopa","score":0,"_id":"63c40b8b74f448ac0d5c3ec8"} 
+15.1.2023, 16:19:55 - DEBUG - auth.service - login with username: shiki 
+15.1.2023, 16:19:55 - INFO - User signup: | {"_id":"63c40b8b74f448ac0d5c3ec8","username":"shiki","fullname":"shiki hopa","score":0} 
+15.1.2023, 16:20:19 - INFO - Server is running on port: 3030 
+15.1.2023, 16:20:52 - INFO - Server is running on port: 3030 
+15.1.2023, 16:22:56 - INFO - Req was made 
+15.1.2023, 16:22:56 - DEBUG - Getting Toys 
+15.1.2023, 16:22:56 - INFO - Req was made 
+15.1.2023, 16:22:56 - DEBUG - Getting Toys 
+15.1.2023, 16:23:03 - INFO - Req was made 
+15.1.2023, 16:23:03 - DEBUG - Getting Toys 
+15.1.2023, 16:23:03 - INFO - Req was made 
+15.1.2023, 16:23:03 - DEBUG - Getting Toys 
+15.1.2023, 16:23:22 - INFO - Req was made 
+15.1.2023, 16:23:22 - DEBUG - Getting Toys 
+15.1.2023, 16:23:22 - INFO - Req was made 
+15.1.2023, 16:23:22 - DEBUG - Getting Toys 
+15.1.2023, 16:24:18 - DEBUG - Getting Toys 
+15.1.2023, 16:24:18 - INFO - Req was made 
+15.1.2023, 16:24:18 - INFO - Req was made 
+15.1.2023, 16:24:18 - DEBUG - Getting Toys 
+15.1.2023, 16:24:47 - DEBUG - auth.service - login with username: shiki 
+15.1.2023, 16:24:47 - INFO - User login:  | {"_id":"63c40b8b74f448ac0d5c3ec8","username":"shiki","fullname":"shiki hopa","score":0} 
+15.1.2023, 16:28:31 - INFO - Req was made 
+15.1.2023, 16:28:31 - DEBUG - Getting Toys 
+15.1.2023, 16:28:31 - INFO - Req was made 
+15.1.2023, 16:28:31 - DEBUG - Getting Toys 
+15.1.2023, 16:48:09 - INFO - Req was made 
+15.1.2023, 16:48:09 - DEBUG - Getting Toys 
+15.1.2023, 16:48:09 - INFO - Req was made 
+15.1.2023, 16:48:09 - DEBUG - Getting Toys 
+15.1.2023, 16:49:49 - DEBUG - auth.service - login with username: shiki 
+15.1.2023, 16:49:49 - INFO - User login:  | {"_id":"63c40b8b74f448ac0d5c3ec8","username":"shiki","fullname":"shiki hopa","score":0} 
+15.1.2023, 16:51:06 - DEBUG - {"username":"keren","password":"emma","fullname":"Keren Siebner"} 
+15.1.2023, 16:51:06 - DEBUG - auth.service - signup with username: keren, fullname: Keren Siebner 
+15.1.2023, 16:51:06 - DEBUG - auth.service - login with username: keren 
+15.1.2023, 16:51:06 - DEBUG - auth.route - new account created: {"username":"keren","password":"$2b$10$Ab.Fx5lExF6JHOGRsE7RB.MlP4eQuEljnM2AfTKzyxxzHqvynMyxa","fullname":"Keren Siebner","score":0,"_id":"63c412dae31f710b98c41692"} 
+15.1.2023, 16:51:06 - INFO - User signup: | {"_id":"63c412dae31f710b98c41692","username":"keren","fullname":"Keren Siebner","score":0} 
+15.1.2023, 16:51:26 - DEBUG - {"username":"gilad","password":"dani","fullname":"Gilad Zilberman"} 
+15.1.2023, 16:51:26 - DEBUG - auth.service - signup with username: gilad, fullname: Gilad Zilberman 
+15.1.2023, 16:51:26 - DEBUG - auth.route - new account created: {"username":"gilad","password":"$2b$10$rWFeEdNelpnz3gnV9GT//O8F0JaiHJsia4FBqMaIrHhFEZ8nZgttW","fullname":"Gilad Zilberman","score":0,"_id":"63c412eee31f710b98c41693"} 
+15.1.2023, 16:51:26 - DEBUG - auth.service - login with username: gilad 
+15.1.2023, 16:51:26 - INFO - User signup: | {"_id":"63c412eee31f710b98c41693","username":"gilad","fullname":"Gilad Zilberman","score":0} 
+15.1.2023, 16:51:28 - DEBUG - auth.service - signup with username: gilad, fullname: Gilad Zilberman 
+15.1.2023, 16:51:28 - DEBUG - {"username":"gilad","password":"dani","fullname":"Gilad Zilberman"} 
+15.1.2023, 16:51:28 - DEBUG - auth.route - new account created: {"username":"gilad","password":"$2b$10$xVFLrXj24Lu3JXwyBYQkIe.nwLA.DkXa5IRPlTp/kGH17/jyBTMaq","fullname":"Gilad Zilberman","score":0,"_id":"63c412f0e31f710b98c41694"} 
+15.1.2023, 16:51:28 - DEBUG - auth.service - login with username: gilad 
+15.1.2023, 16:51:28 - INFO - User signup: | {"_id":"63c412eee31f710b98c41693","username":"gilad","fullname":"Gilad Zilberman","score":0} 
+15.1.2023, 16:51:36 - DEBUG - auth.service - login with username: gilad 
+15.1.2023, 16:51:36 - INFO - User login:  | {"_id":"63c412eee31f710b98c41693","username":"gilad","fullname":"Gilad Zilberman","score":0} 
+15.1.2023, 16:51:44 - DEBUG - auth.service - login with username: keren 
+15.1.2023, 16:51:44 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 16:51:55 - DEBUG - auth.service - login with username: keren 
+15.1.2023, 16:51:56 - INFO - User login:  | {"_id":"63c412dae31f710b98c41692","username":"keren","fullname":"Keren Siebner","score":0} 
+15.1.2023, 16:52:06 - INFO - Req was made 
+15.1.2023, 16:52:06 - DEBUG - Getting Toys 
+15.1.2023, 16:52:06 - DEBUG - Getting Toys 
+15.1.2023, 16:52:06 - INFO - Req was made 
+15.1.2023, 16:53:06 - DEBUG - {"username":"admin","password":"admin","fullname":"admin"} 
+15.1.2023, 16:53:06 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+15.1.2023, 16:53:06 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$1ZpbO0C34DeAjK2RHbmLpultH4vR2m8l0EXdHA061zQB0PIm5w38i","fullname":"admin","score":0,"_id":"63c41352e31f710b98c41695"} 
+15.1.2023, 16:53:06 - DEBUG - auth.service - login with username: admin 
+15.1.2023, 16:53:06 - INFO - User signup: | {"_id":"63c41352e31f710b98c41695","username":"admin","fullname":"admin","score":0} 

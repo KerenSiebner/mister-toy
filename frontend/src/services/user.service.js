@@ -4,7 +4,7 @@ import { httpService } from './http.service.js'
 
 const STORAGE_KEY = 'userDB'
 const STORAGE_KEY_LOGGEDIN = 'loggedinUser'
-const BASE_URL = '/user'
+const BASE_URL = 'auth/'
 
 export const userService = {
     login,
