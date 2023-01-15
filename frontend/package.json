@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.2",
     "chart.js": "^4.1.2",
+    "cloudinary-react": "^1.8.1",
     "faker": "^6.6.6",
     "formik": "^2.2.9",
     "google-map-react": "^2.2.0",

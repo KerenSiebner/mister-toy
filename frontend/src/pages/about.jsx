@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import GoogleMapReact from 'google-map-react';
+import {Image, CloudinaryContext } from 'cloudinary-react';
 
-const AnyReactComponent = ({ text }) => <div style={{fontSize:"3em"}}>{text}</div>;
+const AnyReactComponent = ({ text }) => <div style={{ fontSize: "3em" }}>{text}</div>;
 
 
 const data = [
@@ -50,6 +51,15 @@ export function About() {
                     text="📍"
                 />
             </GoogleMapReact>
+        </div>
+        <div>
+            <h1>Upload Image</h1>
+            <CloudinaryContext cloudName="douunyd0m">
+                <div>
+                    <Image publicId="sample" width="50" />
+                </div>
+                <Image publicId="sample" width="0.5" />
+            </CloudinaryContext>
         </div>
     </div>
 }

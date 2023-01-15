@@ -2,12 +2,10 @@ import { Link } from 'react-router-dom'
 // import { SET_USER } from '../store/user.reducer.js'
 import { useDispatch, useSelector } from 'react-redux'
 
+import { ImgUploader } from '../cmps/img-upload'
 import { useState } from 'react'
 import { showErrorMsg, showSuccessMsg } from '../services/event-bus.service.js'
 import { signup, login } from '../store/user.action.js'
-
-
-
 
 export function LoginSignup() {
     // const user = useSelector((storeState => storeState.userModule.user))
@@ -52,6 +50,10 @@ export function LoginSignup() {
         setIsSignupState(!isSignupState)
     }
 
+    const onUploaded = (imgUrl) => {
+        setCredentials({ ...credentials, imgUrl })
+    }
+
     const { username, password, fullname } = credentials
 
     return <section className='login-section'>
@@ -82,8 +84,9 @@ export function LoginSignup() {
                 placeholder="Full name"
                 onChange={handleCredentialsChange}
                 required
-            />}
-
+            />
+        }
+        <ImgUploader onUploaded={onUploaded}/>                    
             <button>Continue</button>
 
         </form>

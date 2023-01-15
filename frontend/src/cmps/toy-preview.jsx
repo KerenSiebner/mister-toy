@@ -1,3 +1,4 @@
+import {Review} from './review'
 
 export function ToyPreview({ toy }) {
     const path = "../../assets/img/pink.webp"
@@ -9,9 +10,9 @@ export function ToyPreview({ toy }) {
             {/* <img src={path} alt="" /> */}
             <p>Name: <span>{toy.name}</span></p>
             <p>Price: <span>${toy.price.toLocaleString()}</span></p>
+            <Review toy={toy}/>
             {/* <p>Labels: <span>{toy.labels}</span></p> */}
-            {/* <NavLink to={`/toy/${toy._id}`}>Details</NavLink> |
-        <NavLink to={`/toy/edit/${toy._id}`}>Edit</NavLink> */}
+        {/* <NavLink to={`/toy/edit/${toy._id}`}>Edit</NavLink> */} 
 
         </article>
     )

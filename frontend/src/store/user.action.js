@@ -1,6 +1,7 @@
 import { userService } from '../services/user.service.js'
 import { store } from './store.js'
-import { SET_USER } from './user.reducer.js'
+import { SET_USER, REMOVE_USER } from './user.reducer.js'
+import { LOADING_START, LOADING_DONE } from './system.reducer.js'
 
 export function login(credentials) {
     return userService.login(credentials)
@@ -35,6 +36,27 @@ export function logout() {
             console.error('Cannot logout:', err)
             throw err
         })
+}
+
+export async function loadUsers() {
+    try {
+        store.dispatch({ type: LOADING_START })
+        const users = await userService.getUsers()
+        store.dispatch({ type: 'SET_USERS', users })
+    } catch (err) {
+        console.log('UserActions: err in loadUsers', err)
+    } finally {
+        store.dispatch({ type: LOADING_DONE })
+    }
+}
+
+export async function removeUser(userId) {
+    try {
+        await userService.remove(userId)
+        store.dispatch({ type: REMOVE_USER, userId })
+    } catch (err) {
+        console.log('UserActions: err in removeUser', err)
+    }
 }
 
 // export function checkout(amount) {

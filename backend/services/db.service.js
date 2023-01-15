@@ -1,4 +1,14 @@
 const MongoClient = require('mongodb').MongoClient
+// const uri ='mongodb+srv://Keren:Coding2022@cluster0.fjoncnq.mongodb.net/?retryWrites=true&w=majority'
+// const client = new MongoClient (uri, {userNewUrlParser: true})
+
+// client.connect(err => {
+//     console.log('connected to mongo')
+//     const collection = client.db('toy.db').collection('toy')
+//     collection.find().toArray()
+//     .then(res=> console.log(res))
+//     client.close()
+// })
 
 const config = require('../config')
 
