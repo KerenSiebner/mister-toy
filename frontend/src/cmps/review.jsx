@@ -6,19 +6,19 @@ import { showErrorMsg, showSuccessMsg, showUserMsg } from '../services/event-bus
 import { loadReviews, addReview, removeReview } from '../store/review.actions.js'
 import { loadUsers } from '../store/user.action'
 
-export function Review({ toy }) {
+export function Review({ selectedToy }) {
 
   const users = useSelector(storeState => storeState.userModule.users)
   const loggedInUser = useSelector(storeState => storeState.userModule.user)
   const reviews = useSelector(storeState => storeState.reviewModule.reviews)
 
-  const [reviewToEdit, setReviewToEdit] = useState({ txt: '', aboutUserId: '', toyId: toy._id })
+  const [reviewToEdit, setReviewToEdit] = useState({ txt: '', aboutUserId: '', toyId: selectedToy._id })
 
   useEffect(() => {
     loadReviews()
     loadUsers()
   }, [])
-
+console.log('loggedInUser', loggedInUser)
   const handleChange = ev => {
     const { name, value } = ev.target
     setReviewToEdit({ ...reviewToEdit, [name]: value })
@@ -54,31 +54,8 @@ export function Review({ toy }) {
   // const isToyReview = (review.toyId===toy._id) ? true : false
   return (
     <div className="review-app">
-      <h1>Toy Reviews</h1>
-      {reviews && <ul className="review-list">
-        {reviews.map(review => (
-          <li key={review._id}>
-            {/* {canRemove(review) &&
-              <button onClick={() => onRemove(review._id)}>X</button>}*/}
-            <p> 
-              About:
-              <Link to={`/user/${review.userId}`}>
-                User name
-                {/* {review.aboutUser.fullname} */}
-              </Link>
-            </p>
-            <h3>{review.txt}</h3>
-            <p>
-              By:
-              <Link to={`/user/${review.userId}`}>
-                User name
-                {/* {review.byUser.fullname} */}
-              </Link>
-            </p>
-          </li>
+      <h4>Toy Reviews</h4>
 
-        ))}
-      </ul>}
       {users && loggedInUser &&
         <form onSubmit={onAddReview}>
           <select
@@ -97,11 +74,26 @@ export function Review({ toy }) {
             name="txt"
             onChange={handleChange}
             value={reviewToEdit.txt}
-            placeholder={`Tell us what you think of this ${toy.name}`}
+            placeholder={`Tell us what you think of this ${selectedToy.name}`}
           ></textarea>
           <button>Add</button>
         </form>}
+      {reviews && <ul className="review-list">
+        {reviews.map(review => (
+          <li key={review._id}>
+            {/* {canRemove(review) &&
+              <button onClick={() => onRemove(review._id)}>X</button>}*/}
+            <p>
+              <Link to={`/user/${review.userId}`}>
+                {/* { loggedInUser.fullname} */}
+                {/* {review.byUser.fullname} */}
+              </Link>
+            </p>
+            <h3>{review.txt}</h3>
+          </li>
 
+        ))}
+      </ul>}
       <hr />
     </div>
   )

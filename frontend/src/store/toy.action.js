@@ -3,12 +3,10 @@ import { store } from './store.js'
 import { SET_TOYS, SET_IS_LOADING, REMOVE_TOY, ADD_TOY, UPDATE_TOY } from './toy.reducer.js'
 
 export async function loadToys(filterBy) {
-    // console.log('filterBy', filterBy)
     try {
         store.dispatch({ type: SET_IS_LOADING, isLoading: true })
         const toys = await toyService.query(filterBy)
         store.dispatch({ type: SET_TOYS, toys })
-
     } catch (err) {
         console.log('Had issues loading toys', err)
         throw err

@@ -18,7 +18,7 @@ export function ToyFilter({ onSetFilter }) {
     const [selectedLabel, setSelectedLabel] = useState([])
 
     useEffect(() => {
-        console.log('selectedLabel', selectedLabel)
+        // console.log('selectedLabel', selectedLabel)
         onSetFilter(filterByToEdit)
     }, [filterByToEdit,setSelectedLabel])
 

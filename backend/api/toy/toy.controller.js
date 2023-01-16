@@ -7,11 +7,10 @@ async function getToys(req, res) {
     logger.debug('Getting Toys')
     const inStock = (req.query.inStock==='true')? true : false
     const filterBy = { name: req.query.name || '', inStock: inStock}
-    // console.log('req.query', req.query)
+    console.log('req.query', req.query)
     // if (inStock) {
     //   const filterBy={ ...filterBy, inStock: req.query.inStock }
     // }
-    console.log('filterBy', filterBy)
     const toys = await toyService.query(filterBy)
     res.json(toys)
   } catch (err) {

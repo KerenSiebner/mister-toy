@@ -1,7 +1,10 @@
+import {Review} from './review'
+
 import { useNavigate, useParams } from "react-router-dom"
+import {ChatRoom} from './chat-room'
 // const { Link } = ReactRouterDOM
 export function ToyDetails({top, selectedToy,onToggleToyDetails}) {
-    const { toyId } = useParams()
+    // const { toyId } = useParams()
     // const navigate = useNavigate()
 
     function closeDetailsModal(){
@@ -15,9 +18,9 @@ export function ToyDetails({top, selectedToy,onToggleToyDetails}) {
             <p>{selectedToy.name}</p>
             <p>Price:  ${selectedToy.price}</p>
             <p>Labels: {selectedToy.labels}</p> 
-            <div className="msgs">
-            <h5>Messages</h5>     
-            </div>
+            <Review selectedToy={selectedToy}/>
+            <ChatRoom selectedToy={selectedToy}/>
+
             <button onClick={closeDetailsModal}>Back</button>
         </section>
     )

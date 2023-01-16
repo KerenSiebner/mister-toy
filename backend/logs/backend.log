@@ -1152,3 +1152,757 @@
 15.1.2023, 23:26:53 - DEBUG - Getting Toys 
 15.1.2023, 23:26:53 - INFO - Req was made 
 15.1.2023, 23:26:53 - DEBUG - Getting Toys 
+16.1.2023, 13:11:53 - INFO - Server is running on port: 3030 
+16.1.2023, 13:11:58 - INFO - Req was made 
+16.1.2023, 13:11:58 - DEBUG - Getting Toys 
+16.1.2023, 13:11:58 - INFO - Req was made 
+16.1.2023, 13:11:58 - DEBUG - Getting Toys 
+16.1.2023, 13:22:07 - INFO - Req was made 
+16.1.2023, 13:22:07 - DEBUG - Getting Toys 
+16.1.2023, 13:22:07 - INFO - Req was made 
+16.1.2023, 13:22:07 - DEBUG - Getting Toys 
+16.1.2023, 13:33:13 - INFO - Req was made 
+16.1.2023, 13:33:13 - DEBUG - Getting Toys 
+16.1.2023, 13:33:13 - INFO - Req was made 
+16.1.2023, 13:33:13 - DEBUG - Getting Toys 
+16.1.2023, 13:36:36 - INFO - Req was made 
+16.1.2023, 13:36:36 - DEBUG - Getting Toys 
+16.1.2023, 13:36:36 - INFO - Req was made 
+16.1.2023, 13:36:36 - DEBUG - Getting Toys 
+16.1.2023, 13:36:45 - INFO - Req was made 
+16.1.2023, 13:36:45 - DEBUG - Getting Toys 
+16.1.2023, 13:36:45 - INFO - Req was made 
+16.1.2023, 13:36:45 - DEBUG - Getting Toys 
+16.1.2023, 13:49:54 - DEBUG - Getting Toys 
+16.1.2023, 13:49:54 - INFO - Req was made 
+16.1.2023, 13:49:54 - INFO - Req was made 
+16.1.2023, 13:49:54 - DEBUG - Getting Toys 
+16.1.2023, 13:54:42 - INFO - Server is running on port: 3030 
+16.1.2023, 14:16:58 - INFO - Server is running on port: 3030 
+16.1.2023, 14:17:00 - INFO - New connected socket [id: B7GObnaiW_2f3mNvAAAB] 
+16.1.2023, 14:17:00 - INFO - Setting socket.userId = 0CfAk for socket [id: B7GObnaiW_2f3mNvAAAB] 
+16.1.2023, 14:17:00 - INFO - Setting socket.userId = FHK7T for socket [id: B7GObnaiW_2f3mNvAAAB] 
+16.1.2023, 14:17:00 - INFO - Setting socket.userId = tnPlT for socket [id: B7GObnaiW_2f3mNvAAAB] 
+16.1.2023, 14:17:01 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:17:02 - INFO - New connected socket [id: PVpk4pi5xnykf_lFAAAD] 
+16.1.2023, 14:17:02 - INFO - Req was made 
+16.1.2023, 14:17:02 - DEBUG - Getting Toys 
+16.1.2023, 14:17:02 - DEBUG - Getting Toys 
+16.1.2023, 14:17:02 - INFO - Req was made 
+16.1.2023, 14:17:02 - INFO - Setting socket.userId = tnPlT for socket [id: PVpk4pi5xnykf_lFAAAD] 
+16.1.2023, 14:17:03 - INFO - Setting socket.userId = eWFoU for socket [id: PVpk4pi5xnykf_lFAAAD] 
+16.1.2023, 14:17:05 - INFO - Setting socket.userId = XWQhW for socket [id: PVpk4pi5xnykf_lFAAAD] 
+16.1.2023, 14:17:06 - INFO - Setting socket.userId = k40H2 for socket [id: PVpk4pi5xnykf_lFAAAD] 
+16.1.2023, 14:17:09 - INFO - New chat msg from socket [id: PVpk4pi5xnykf_lFAAAD], emitting to topic undefined 
+16.1.2023, 14:18:50 - INFO - Req was made 
+16.1.2023, 14:18:50 - DEBUG - Getting Toys 
+16.1.2023, 14:18:50 - INFO - Req was made 
+16.1.2023, 14:18:50 - DEBUG - Getting Toys 
+16.1.2023, 14:18:50 - INFO - Req was made 
+16.1.2023, 14:18:50 - DEBUG - Getting Toys 
+16.1.2023, 14:18:51 - INFO - Req was made 
+16.1.2023, 14:18:51 - DEBUG - Getting Toys 
+16.1.2023, 14:18:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:18:55 - INFO - New connected socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:18:55 - INFO - Req was made 
+16.1.2023, 14:18:55 - DEBUG - Getting Toys 
+16.1.2023, 14:18:55 - INFO - Req was made 
+16.1.2023, 14:18:55 - DEBUG - Getting Toys 
+16.1.2023, 14:18:55 - INFO - Setting socket.userId = k40H2 for socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:18:56 - INFO - Setting socket.userId = ORScy for socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:18:58 - INFO - Setting socket.userId = BsNYU for socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:18:59 - INFO - Setting socket.userId = txKgE for socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:18:59 - INFO - Req was made 
+16.1.2023, 14:18:59 - DEBUG - Getting Toys 
+16.1.2023, 14:19:01 - INFO - Req was made 
+16.1.2023, 14:19:01 - DEBUG - Getting Toys 
+16.1.2023, 14:25:12 - INFO - New chat msg from socket [id: jSoMjoMmCm0-sN9wAAAF], emitting to topic undefined 
+16.1.2023, 14:30:00 - INFO - Removing socket.userId for socket [id: jSoMjoMmCm0-sN9wAAAF] 
+16.1.2023, 14:49:03 - INFO - New connected socket [id: 8TN8x8cDOABmhBmBAAAH] 
+16.1.2023, 14:49:05 - INFO - New connected socket [id: ewvJGHZX3SPXRx9gAAAJ] 
+16.1.2023, 14:49:41 - INFO - New connected socket [id: q0xkBzfk4oSAZQr5AAAL] 
+16.1.2023, 14:49:41 - INFO - New connected socket [id: yT_G1I9GAdS1c_HQAAAN] 
+16.1.2023, 14:49:45 - INFO - New connected socket [id: ceOPZFqLrgDa6qB9AAAP] 
+16.1.2023, 14:50:11 - INFO - New connected socket [id: ilPSzUMkd0nntsr1AAAR] 
+16.1.2023, 14:50:53 - INFO - New connected socket [id: _MRpgGYHLc9ytHxyAAAT] 
+16.1.2023, 14:50:54 - INFO - New connected socket [id: vH7LkBzUVUOvu1eQAAAV] 
+16.1.2023, 14:51:16 - INFO - New connected socket [id: dF0HRxXaY4dVz5X3AAAX] 
+16.1.2023, 14:51:24 - INFO - New connected socket [id: RPSzrvT6DmlhoL85AAAZ] 
+16.1.2023, 14:51:34 - INFO - New connected socket [id: nSnftNSSt45d1_WEAAAb] 
+16.1.2023, 14:51:53 - INFO - New connected socket [id: 4CcGrLWjMc6yz89eAAAd] 
+16.1.2023, 14:52:58 - INFO - New connected socket [id: TlmbA-_MZCW-ypCNAAAf] 
+16.1.2023, 14:53:02 - INFO - New connected socket [id: zKC1CHs5jbw5ecbWAAAh] 
+16.1.2023, 14:53:30 - INFO - New connected socket [id: MQqvGibnfdJVsq1_AAAj] 
+16.1.2023, 14:53:39 - INFO - New connected socket [id: aZEChy6_Gxb2mU_BAAAl] 
+16.1.2023, 14:53:41 - INFO - New connected socket [id: fU3_ntPBg8EISf-oAAAn] 
+16.1.2023, 14:53:42 - INFO - New connected socket [id: wIu4zYMSKOTaVmfDAAAp] 
+16.1.2023, 14:53:46 - INFO - New connected socket [id: 13MEfJUmsJPUPhgYAAAr] 
+16.1.2023, 14:53:52 - INFO - New connected socket [id: 1cAOGPJMX5PW72TEAAAt] 
+16.1.2023, 14:53:53 - INFO - New connected socket [id: 743S72BCbDzbX1eOAAAv] 
+16.1.2023, 14:54:22 - INFO - New connected socket [id: -SjVz8SmAA7SxJZEAAAx] 
+16.1.2023, 14:54:24 - INFO - New connected socket [id: KDs2tG052eXaxCk5AAAz] 
+16.1.2023, 14:54:58 - INFO - New connected socket [id: 7J77rAJQFiPMP5QGAAA1] 
+16.1.2023, 14:55:03 - INFO - New connected socket [id: NLcGd_07j1yobAagAAA3] 
+16.1.2023, 14:55:06 - INFO - New connected socket [id: wL5yT5ujjw8KKtbWAAA5] 
+16.1.2023, 14:56:19 - INFO - New connected socket [id: 85SSEaeIBASNWvpSAAA7] 
+16.1.2023, 14:56:31 - INFO - New connected socket [id: mVsLtVLNCDVtzPd0AAA9] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 14:57:06 - DEBUG - {"fullname":"Puki Norma","username":"puki","password":"123","score":100,"isAdmin":false} 
+16.1.2023, 14:57:06 - DEBUG - auth.service - signup with username: puki, fullname: Puki Norma 
+16.1.2023, 14:57:07 - INFO - New connected socket [id: uNdMdZBUImn0mEaUAAA_] 
+16.1.2023, 14:57:07 - INFO - Req was made 
+16.1.2023, 14:57:07 - DEBUG - Getting Toys 
+16.1.2023, 14:57:07 - INFO - Req was made 
+16.1.2023, 14:57:07 - DEBUG - Getting Toys 
+16.1.2023, 14:57:07 - DEBUG - auth.route - new account created: {"username":"puki","password":"$2b$10$ZP9CyKveF/9vPIWfwETbyeTJye1AzpBf2sJUE4M1IOmRmnV.EIj3m","fullname":"Puki Norma","score":0,"_id":"63c549a376a9179fbd585982"} 
+16.1.2023, 14:57:07 - DEBUG - auth.service - login with username: puki 
+16.1.2023, 14:57:07 - INFO - User signup: | {"_id":"63c4419c81c73966a8f49e01","username":"puki","fullname":"Puki Norma","score":0} 
+16.1.2023, 14:57:07 - DEBUG - {"fullname":"Master Adminov","username":"admin","password":"123","score":100,"isAdmin":true} 
+16.1.2023, 14:57:07 - DEBUG - auth.service - signup with username: admin, fullname: Master Adminov 
+16.1.2023, 14:57:07 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: uNdMdZBUImn0mEaUAAA_] 
+16.1.2023, 14:57:07 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$Tv153J5Hg6ktryuxrZV5EOAMjxnqo0IM2mXgwNLve/WE7KjusI2jC","fullname":"Master Adminov","score":0,"_id":"63c549a376a9179fbd585983"} 
+16.1.2023, 14:57:07 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 14:57:07 - ERROR - Failed to signup Invalid username or password 
+16.1.2023, 14:57:07 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: uNdMdZBUImn0mEaUAAA_] 
+16.1.2023, 15:01:58 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:02:00 - INFO - New connected socket [id: RS_iw64BBXcbsfCYAABB] 
+16.1.2023, 15:02:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:02:37 - INFO - New connected socket [id: ryZFoMsWUm3okyfIAABD] 
+16.1.2023, 16:31:49 - INFO - New connected socket [id: e3-2dPWHekVT10ZlAABF] 
+16.1.2023, 16:31:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:31:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:31:54 - INFO - New connected socket [id: NQNRH2fMkO0ff8W1AABH] 
+16.1.2023, 16:31:54 - INFO - Req was made 
+16.1.2023, 16:31:54 - DEBUG - Getting Toys 
+16.1.2023, 16:31:54 - DEBUG - Getting Toys 
+16.1.2023, 16:31:54 - INFO - Req was made 
+16.1.2023, 16:31:54 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: NQNRH2fMkO0ff8W1AABH] 
+16.1.2023, 16:32:04 - INFO - Req was made 
+16.1.2023, 16:32:04 - DEBUG - Getting Toys 
+16.1.2023, 16:32:04 - INFO - Req was made 
+16.1.2023, 16:32:04 - DEBUG - Getting Toys 
+16.1.2023, 16:32:04 - DEBUG - Getting Toys 
+16.1.2023, 16:32:04 - INFO - Req was made 
+16.1.2023, 16:32:05 - DEBUG - Getting Toys 
+16.1.2023, 16:32:05 - INFO - Req was made 
+16.1.2023, 16:32:12 - INFO - New connected socket [id: wtwoOOnu1C_RR6nAAABJ] 
+16.1.2023, 16:32:15 - INFO - New connected socket [id: 59tgEkeBOtJiUBIxAABL] 
+16.1.2023, 16:32:44 - INFO - Req was made 
+16.1.2023, 16:32:44 - DEBUG - Getting Toys 
+16.1.2023, 16:32:47 - INFO - Req was made 
+16.1.2023, 16:32:47 - DEBUG - Getting Toys 
+16.1.2023, 16:32:50 - DEBUG - Getting Toys 
+16.1.2023, 16:32:50 - INFO - Req was made 
+16.1.2023, 16:32:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:32:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:32:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:32:52 - INFO - New connected socket [id: vdmpXT7neXn14463AABN] 
+16.1.2023, 16:32:52 - INFO - Req was made 
+16.1.2023, 16:32:52 - DEBUG - Getting Toys 
+16.1.2023, 16:32:52 - INFO - Req was made 
+16.1.2023, 16:32:52 - DEBUG - Getting Toys 
+16.1.2023, 16:32:52 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: vdmpXT7neXn14463AABN] 
+16.1.2023, 16:32:55 - INFO - Req was made 
+16.1.2023, 16:32:55 - DEBUG - Getting Toys 
+16.1.2023, 16:32:55 - DEBUG - Getting Toys 
+16.1.2023, 16:32:55 - INFO - Req was made 
+16.1.2023, 16:32:55 - INFO - Req was made 
+16.1.2023, 16:32:55 - DEBUG - Getting Toys 
+16.1.2023, 16:32:55 - DEBUG - Getting Toys 
+16.1.2023, 16:32:55 - INFO - Req was made 
+16.1.2023, 16:32:56 - INFO - Req was made 
+16.1.2023, 16:32:56 - DEBUG - Getting Toys 
+16.1.2023, 16:32:56 - INFO - Req was made 
+16.1.2023, 16:32:56 - DEBUG - Getting Toys 
+16.1.2023, 16:32:57 - INFO - Req was made 
+16.1.2023, 16:32:57 - DEBUG - Getting Toys 
+16.1.2023, 16:32:58 - DEBUG - Getting Toys 
+16.1.2023, 16:32:58 - INFO - Req was made 
+16.1.2023, 16:32:58 - DEBUG - Getting Toys 
+16.1.2023, 16:32:58 - INFO - Req was made 
+16.1.2023, 16:32:58 - INFO - Req was made 
+16.1.2023, 16:32:58 - DEBUG - Getting Toys 
+16.1.2023, 16:32:58 - INFO - Req was made 
+16.1.2023, 16:32:58 - DEBUG - Getting Toys 
+16.1.2023, 16:32:58 - INFO - Req was made 
+16.1.2023, 16:32:58 - DEBUG - Getting Toys 
+16.1.2023, 16:33:00 - INFO - Req was made 
+16.1.2023, 16:33:00 - DEBUG - Getting Toys 
+16.1.2023, 16:33:00 - DEBUG - Getting Toys 
+16.1.2023, 16:33:00 - INFO - Req was made 
+16.1.2023, 16:33:01 - INFO - Req was made 
+16.1.2023, 16:33:01 - DEBUG - Getting Toys 
+16.1.2023, 16:33:01 - INFO - Req was made 
+16.1.2023, 16:33:01 - DEBUG - Getting Toys 
+16.1.2023, 16:33:03 - INFO - Req was made 
+16.1.2023, 16:33:03 - DEBUG - Getting Toys 
+16.1.2023, 16:33:03 - INFO - Req was made 
+16.1.2023, 16:33:03 - DEBUG - Getting Toys 
+16.1.2023, 16:33:03 - INFO - Req was made 
+16.1.2023, 16:33:03 - DEBUG - Getting Toys 
+16.1.2023, 16:33:03 - INFO - Req was made 
+16.1.2023, 16:33:03 - DEBUG - Getting Toys 
+16.1.2023, 16:33:37 - DEBUG - Getting Toys 
+16.1.2023, 16:33:37 - INFO - Req was made 
+16.1.2023, 16:35:10 - INFO - Req was made 
+16.1.2023, 16:35:10 - DEBUG - Getting Toys 
+16.1.2023, 16:35:10 - DEBUG - Getting Toys 
+16.1.2023, 16:35:10 - INFO - Req was made 
+16.1.2023, 16:35:14 - INFO - Req was made 
+16.1.2023, 16:35:14 - DEBUG - Getting Toys 
+16.1.2023, 16:35:15 - INFO - Req was made 
+16.1.2023, 16:35:15 - DEBUG - Getting Toys 
+16.1.2023, 16:35:15 - INFO - Req was made 
+16.1.2023, 16:35:15 - DEBUG - Getting Toys 
+16.1.2023, 16:35:16 - INFO - Req was made 
+16.1.2023, 16:35:16 - DEBUG - Getting Toys 
+16.1.2023, 16:35:16 - INFO - Req was made 
+16.1.2023, 16:35:16 - DEBUG - Getting Toys 
+16.1.2023, 16:35:17 - INFO - Req was made 
+16.1.2023, 16:35:17 - DEBUG - Getting Toys 
+16.1.2023, 16:35:17 - INFO - Req was made 
+16.1.2023, 16:35:17 - DEBUG - Getting Toys 
+16.1.2023, 16:35:17 - INFO - Req was made 
+16.1.2023, 16:35:17 - DEBUG - Getting Toys 
+16.1.2023, 16:35:18 - INFO - Req was made 
+16.1.2023, 16:35:18 - DEBUG - Getting Toys 
+16.1.2023, 16:35:22 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:35:23 - INFO - New connected socket [id: 1ffNFxloSqscSSYHAABP] 
+16.1.2023, 16:35:23 - INFO - Req was made 
+16.1.2023, 16:35:23 - DEBUG - Getting Toys 
+16.1.2023, 16:35:23 - INFO - Req was made 
+16.1.2023, 16:35:23 - DEBUG - Getting Toys 
+16.1.2023, 16:35:23 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: 1ffNFxloSqscSSYHAABP] 
+16.1.2023, 16:35:39 - INFO - Req was made 
+16.1.2023, 16:35:39 - DEBUG - Getting Toys 
+16.1.2023, 16:35:39 - INFO - Req was made 
+16.1.2023, 16:35:39 - DEBUG - Getting Toys 
+16.1.2023, 16:36:42 - DEBUG - Getting Toys 
+16.1.2023, 16:36:42 - INFO - Req was made 
+16.1.2023, 16:36:42 - INFO - Req was made 
+16.1.2023, 16:36:42 - DEBUG - Getting Toys 
+16.1.2023, 16:36:49 - INFO - Req was made 
+16.1.2023, 16:36:49 - DEBUG - Getting Toys 
+16.1.2023, 16:36:49 - DEBUG - Getting Toys 
+16.1.2023, 16:36:49 - INFO - Req was made 
+16.1.2023, 16:36:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:36:51 - INFO - New connected socket [id: ap9h1npykqq2SeSWAABR] 
+16.1.2023, 16:36:51 - INFO - Req was made 
+16.1.2023, 16:36:51 - DEBUG - Getting Toys 
+16.1.2023, 16:36:51 - INFO - Req was made 
+16.1.2023, 16:36:51 - DEBUG - Getting Toys 
+16.1.2023, 16:36:52 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: ap9h1npykqq2SeSWAABR] 
+16.1.2023, 16:37:08 - INFO - Req was made 
+16.1.2023, 16:37:08 - DEBUG - Getting Toys 
+16.1.2023, 16:37:08 - INFO - Req was made 
+16.1.2023, 16:37:08 - DEBUG - Getting Toys 
+16.1.2023, 16:37:08 - INFO - Req was made 
+16.1.2023, 16:37:08 - DEBUG - Getting Toys 
+16.1.2023, 16:37:09 - INFO - Req was made 
+16.1.2023, 16:37:09 - DEBUG - Getting Toys 
+16.1.2023, 16:37:09 - INFO - Req was made 
+16.1.2023, 16:37:09 - DEBUG - Getting Toys 
+16.1.2023, 16:37:09 - DEBUG - Getting Toys 
+16.1.2023, 16:37:09 - INFO - Req was made 
+16.1.2023, 16:37:11 - INFO - Req was made 
+16.1.2023, 16:37:11 - DEBUG - Getting Toys 
+16.1.2023, 16:37:11 - INFO - Req was made 
+16.1.2023, 16:37:11 - DEBUG - Getting Toys 
+16.1.2023, 16:37:11 - INFO - Req was made 
+16.1.2023, 16:37:11 - DEBUG - Getting Toys 
+16.1.2023, 16:37:13 - INFO - Req was made 
+16.1.2023, 16:37:13 - DEBUG - Getting Toys 
+16.1.2023, 16:37:13 - INFO - Req was made 
+16.1.2023, 16:37:13 - DEBUG - Getting Toys 
+16.1.2023, 16:37:13 - DEBUG - Getting Toys 
+16.1.2023, 16:37:13 - INFO - Req was made 
+16.1.2023, 16:38:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:38:14 - INFO - New connected socket [id: IzOrCkXS4oJgGaD8AABT] 
+16.1.2023, 16:38:14 - INFO - Req was made 
+16.1.2023, 16:38:14 - DEBUG - Getting Toys 
+16.1.2023, 16:38:14 - INFO - Req was made 
+16.1.2023, 16:38:14 - DEBUG - Getting Toys 
+16.1.2023, 16:38:15 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: IzOrCkXS4oJgGaD8AABT] 
+16.1.2023, 16:38:19 - DEBUG - Getting Toys 
+16.1.2023, 16:38:19 - INFO - Req was made 
+16.1.2023, 16:38:19 - INFO - Req was made 
+16.1.2023, 16:38:19 - DEBUG - Getting Toys 
+16.1.2023, 16:38:20 - INFO - Req was made 
+16.1.2023, 16:38:20 - DEBUG - Getting Toys 
+16.1.2023, 16:38:20 - DEBUG - Getting Toys 
+16.1.2023, 16:38:20 - INFO - Req was made 
+16.1.2023, 16:38:20 - INFO - Req was made 
+16.1.2023, 16:38:20 - DEBUG - Getting Toys 
+16.1.2023, 16:38:21 - DEBUG - Getting Toys 
+16.1.2023, 16:38:21 - INFO - Req was made 
+16.1.2023, 16:38:21 - INFO - Req was made 
+16.1.2023, 16:38:21 - DEBUG - Getting Toys 
+16.1.2023, 16:38:21 - INFO - Req was made 
+16.1.2023, 16:38:21 - DEBUG - Getting Toys 
+16.1.2023, 16:38:21 - DEBUG - Getting Toys 
+16.1.2023, 16:38:21 - INFO - Req was made 
+16.1.2023, 16:38:22 - INFO - Req was made 
+16.1.2023, 16:38:22 - DEBUG - Getting Toys 
+16.1.2023, 16:39:16 - DEBUG - Getting Toys 
+16.1.2023, 16:39:16 - INFO - Req was made 
+16.1.2023, 16:39:22 - INFO - Req was made 
+16.1.2023, 16:39:22 - DEBUG - Getting Toys 
+16.1.2023, 16:39:23 - DEBUG - Getting Toys 
+16.1.2023, 16:39:23 - INFO - Req was made 
+16.1.2023, 16:39:47 - INFO - Req was made 
+16.1.2023, 16:39:47 - DEBUG - Getting Toys 
+16.1.2023, 16:40:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:40:26 - INFO - New connected socket [id: HZvIRgXT01N5ef2CAABV] 
+16.1.2023, 16:40:26 - INFO - Req was made 
+16.1.2023, 16:40:26 - DEBUG - Getting Toys 
+16.1.2023, 16:40:26 - INFO - Req was made 
+16.1.2023, 16:40:26 - DEBUG - Getting Toys 
+16.1.2023, 16:40:26 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: HZvIRgXT01N5ef2CAABV] 
+16.1.2023, 16:41:38 - DEBUG - Getting Toys 
+16.1.2023, 16:41:38 - INFO - Req was made 
+16.1.2023, 16:43:05 - INFO - Server is running on port: 3030 
+16.1.2023, 16:43:06 - INFO - New connected socket [id: mX_fy9Fckn5D5n3tAAAB] 
+16.1.2023, 16:43:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:43:10 - INFO - New connected socket [id: mqZD6n6qSkmyHle4AAAD] 
+16.1.2023, 16:43:11 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: mqZD6n6qSkmyHle4AAAD] 
+16.1.2023, 16:43:19 - INFO - Server is running on port: 3030 
+16.1.2023, 16:43:19 - INFO - New connected socket [id: YKWamLuhVOr48yh2AAAB] 
+16.1.2023, 16:43:23 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:43:23 - INFO - New connected socket [id: 4V1vRzOrm3uLJE_4AAAD] 
+16.1.2023, 16:43:23 - INFO - Req was made 
+16.1.2023, 16:43:23 - DEBUG - Getting Toys 
+16.1.2023, 16:43:23 - DEBUG - Getting Toys 
+16.1.2023, 16:43:23 - INFO - Req was made 
+16.1.2023, 16:43:23 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: 4V1vRzOrm3uLJE_4AAAD] 
+16.1.2023, 16:43:58 - INFO - Server is running on port: 3030 
+16.1.2023, 16:43:59 - INFO - New connected socket [id: HP2ipKd_UQD9SnlfAAAB] 
+16.1.2023, 16:44:01 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:44:01 - INFO - New connected socket [id: XaYwhl9vrzgRWr1eAAAD] 
+16.1.2023, 16:44:01 - INFO - Req was made 
+16.1.2023, 16:44:01 - DEBUG - Getting Toys 
+16.1.2023, 16:44:01 - INFO - Req was made 
+16.1.2023, 16:44:01 - DEBUG - Getting Toys 
+16.1.2023, 16:44:01 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: XaYwhl9vrzgRWr1eAAAD] 
+16.1.2023, 16:47:30 - INFO - Server is running on port: 3030 
+16.1.2023, 16:47:31 - INFO - New connected socket [id: 2OF36_RZm6iwNqrDAAAB] 
+16.1.2023, 16:47:32 - INFO - Server is running on port: 3030 
+16.1.2023, 16:47:33 - INFO - New connected socket [id: bi1m98ay8tp_t850AAAB] 
+16.1.2023, 16:47:34 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:47:34 - INFO - New connected socket [id: OsLCs8fLMpvNajnmAAAD] 
+16.1.2023, 16:47:34 - INFO - Req was made 
+16.1.2023, 16:47:34 - DEBUG - Getting Toys 
+16.1.2023, 16:47:35 - INFO - Req was made 
+16.1.2023, 16:47:35 - DEBUG - Getting Toys 
+16.1.2023, 16:47:35 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: OsLCs8fLMpvNajnmAAAD] 
+16.1.2023, 16:48:35 - INFO - Req was made 
+16.1.2023, 16:48:35 - DEBUG - Getting Toys 
+16.1.2023, 16:48:35 - INFO - Req was made 
+16.1.2023, 16:48:35 - DEBUG - Getting Toys 
+16.1.2023, 16:49:19 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:49:20 - INFO - New connected socket [id: wOHIx3U2kpf7u52NAAAF] 
+16.1.2023, 16:49:20 - INFO - Req was made 
+16.1.2023, 16:49:20 - DEBUG - Getting Toys 
+16.1.2023, 16:49:20 - INFO - Req was made 
+16.1.2023, 16:49:20 - DEBUG - Getting Toys 
+16.1.2023, 16:49:20 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: wOHIx3U2kpf7u52NAAAF] 
+16.1.2023, 16:50:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:50:07 - INFO - New connected socket [id: 87U_i6Qcwp7HBq_jAAAH] 
+16.1.2023, 16:50:07 - INFO - Req was made 
+16.1.2023, 16:50:07 - DEBUG - Getting Toys 
+16.1.2023, 16:50:07 - INFO - Req was made 
+16.1.2023, 16:50:07 - DEBUG - Getting Toys 
+16.1.2023, 16:50:07 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: 87U_i6Qcwp7HBq_jAAAH] 
+16.1.2023, 16:50:16 - INFO - Server is running on port: 3030 
+16.1.2023, 16:50:18 - INFO - New connected socket [id: YX5YP7Vds_P_GeNgAAAB] 
+16.1.2023, 16:50:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:50:20 - INFO - New connected socket [id: e4DYNVQAhAQY_ldcAAAD] 
+16.1.2023, 16:50:20 - INFO - Req was made 
+16.1.2023, 16:50:20 - DEBUG - Getting Toys 
+16.1.2023, 16:50:20 - INFO - Req was made 
+16.1.2023, 16:50:20 - DEBUG - Getting Toys 
+16.1.2023, 16:50:20 - INFO - Setting socket.userId = 63c4419c81c73966a8f49e01 for socket [id: e4DYNVQAhAQY_ldcAAAD] 
+16.1.2023, 16:56:05 - INFO - New chat msg from socket [id: e4DYNVQAhAQY_ldcAAAD], emitting to topic undefined 
+16.1.2023, 16:56:28 - INFO - Removing socket.userId for socket [id: e4DYNVQAhAQY_ldcAAAD] 
+16.1.2023, 16:56:46 - DEBUG - auth.service - login with username: keren 
+16.1.2023, 16:56:46 - INFO - User login:  | {"_id":"63c412dae31f710b98c41692","username":"keren","fullname":"Keren Siebner","score":0} 
+16.1.2023, 16:56:46 - INFO - Setting socket.userId = 63c412dae31f710b98c41692 for socket [id: e4DYNVQAhAQY_ldcAAAD] 
+16.1.2023, 16:57:07 - INFO - Req was made 
+16.1.2023, 16:57:07 - DEBUG - Getting Toys 
+16.1.2023, 16:57:07 - INFO - Req was made 
+16.1.2023, 16:57:07 - DEBUG - Getting Toys 
+16.1.2023, 16:57:50 - INFO - Req was made 
+16.1.2023, 16:57:50 - DEBUG - Getting Toys 
+16.1.2023, 16:57:50 - DEBUG - Getting Toys 
+16.1.2023, 16:57:50 - INFO - Req was made 
+16.1.2023, 17:09:39 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:09:40 - INFO - New connected socket [id: czpJMK7PeZxmCYhLAAAF] 
+16.1.2023, 20:54:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:54:11 - INFO - New connected socket [id: 9Ulb-rpMjgVq-nfSAAAH] 
+16.1.2023, 20:54:12 - INFO - Req was made 
+16.1.2023, 20:54:12 - DEBUG - Getting Toys 
+16.1.2023, 20:54:12 - INFO - Req was made 
+16.1.2023, 20:54:12 - DEBUG - Getting Toys 
+16.1.2023, 20:54:12 - INFO - Setting socket.userId = 63c412dae31f710b98c41692 for socket [id: 9Ulb-rpMjgVq-nfSAAAH] 
+16.1.2023, 20:56:22 - INFO - Removing socket.userId for socket [id: 9Ulb-rpMjgVq-nfSAAAH] 
+16.1.2023, 20:56:27 - DEBUG - auth.service - login with username: keren 
+16.1.2023, 20:56:28 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 20:56:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:56:28 - INFO - New connected socket [id: 4I0S3MxF-DsW12xMAAAJ] 
+16.1.2023, 20:56:31 - INFO - Req was made 
+16.1.2023, 20:56:31 - DEBUG - Getting Toys 
+16.1.2023, 20:56:31 - INFO - Req was made 
+16.1.2023, 20:56:31 - DEBUG - Getting Toys 
+16.1.2023, 20:58:05 - INFO - New connected socket [id: kcL_CQ9y_99_dmpGAAAL] 
+16.1.2023, 20:58:19 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:58:20 - INFO - New connected socket [id: 4VnNVngK4UNKEMzsAAAN] 
+16.1.2023, 20:58:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:58:42 - INFO - New connected socket [id: Z17kQ59KzLCd74YxAAAP] 
+16.1.2023, 20:58:42 - INFO - Req was made 
+16.1.2023, 20:58:42 - DEBUG - Getting Toys 
+16.1.2023, 20:58:42 - INFO - Req was made 
+16.1.2023, 20:58:42 - DEBUG - Getting Toys 
+16.1.2023, 20:58:51 - DEBUG - auth.service - login with username: puki 
+16.1.2023, 20:58:52 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 20:58:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:58:52 - INFO - New connected socket [id: HbbiqCcWIRXxo78zAAAR] 
+16.1.2023, 20:58:54 - INFO - Req was made 
+16.1.2023, 20:58:54 - DEBUG - Getting Toys 
+16.1.2023, 20:58:54 - INFO - Req was made 
+16.1.2023, 20:58:54 - DEBUG - Getting Toys 
+16.1.2023, 20:59:03 - INFO - New chat msg from socket [id: 4I0S3MxF-DsW12xMAAAJ], emitting to topic null 
+16.1.2023, 20:59:12 - INFO - New chat msg from socket [id: HbbiqCcWIRXxo78zAAAR], emitting to topic null 
+16.1.2023, 20:59:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:59:46 - INFO - Server is running on port: 3030 
+16.1.2023, 20:59:48 - INFO - New connected socket [id: 6dga7D4n9A48pSrdAAAB] 
+16.1.2023, 21:00:12 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:00:13 - INFO - New connected socket [id: WviVGlGmt717JY9vAAAD] 
+16.1.2023, 21:00:13 - INFO - Req was made 
+16.1.2023, 21:00:13 - DEBUG - Getting Toys 
+16.1.2023, 21:00:13 - INFO - Req was made 
+16.1.2023, 21:00:13 - DEBUG - Getting Toys 
+16.1.2023, 21:00:20 - DEBUG - auth.service - login with username: keren 
+16.1.2023, 21:00:20 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 21:00:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:00:20 - INFO - New connected socket [id: cnjBLZq5KO8D2NoUAAAF] 
+16.1.2023, 21:00:28 - INFO - Req was made 
+16.1.2023, 21:00:28 - DEBUG - Getting Toys 
+16.1.2023, 21:00:28 - INFO - Req was made 
+16.1.2023, 21:00:28 - DEBUG - Getting Toys 
+16.1.2023, 21:00:34 - INFO - New chat msg from socket [id: cnjBLZq5KO8D2NoUAAAF], emitting to topic null 
+16.1.2023, 21:01:56 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 21:01:56 - INFO - User login:  | {"_id":"63c41352e31f710b98c41695","username":"admin","fullname":"admin","score":0} 
+16.1.2023, 21:01:56 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: cnjBLZq5KO8D2NoUAAAF] 
+16.1.2023, 21:02:02 - DEBUG - Getting Toys 
+16.1.2023, 21:02:02 - INFO - Req was made 
+16.1.2023, 21:02:02 - INFO - Req was made 
+16.1.2023, 21:02:02 - DEBUG - Getting Toys 
+16.1.2023, 21:02:25 - INFO - New chat msg from socket [id: cnjBLZq5KO8D2NoUAAAF], emitting to topic null 
+16.1.2023, 21:02:39 - INFO - New connected socket [id: w-vXJ4D63312GVLnAAAH] 
+16.1.2023, 21:05:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:05:28 - INFO - New connected socket [id: _ttVywdCeLC6VEh2AAAJ] 
+16.1.2023, 21:05:28 - INFO - Req was made 
+16.1.2023, 21:05:28 - DEBUG - Getting Toys 
+16.1.2023, 21:05:28 - INFO - Req was made 
+16.1.2023, 21:05:28 - DEBUG - Getting Toys 
+16.1.2023, 21:05:28 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: _ttVywdCeLC6VEh2AAAJ] 
+16.1.2023, 21:06:08 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:06:08 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:06:08 - INFO - New connected socket [id: QIJzNBhDp0RSXQo4AAAL] 
+16.1.2023, 21:06:08 - INFO - New connected socket [id: 8yL5LxT3LA_HxhXLAAAN] 
+16.1.2023, 21:06:08 - DEBUG - Getting Toys 
+16.1.2023, 21:06:08 - INFO - Req was made 
+16.1.2023, 21:06:08 - INFO - Req was made 
+16.1.2023, 21:06:08 - DEBUG - Getting Toys 
+16.1.2023, 21:06:09 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: 8yL5LxT3LA_HxhXLAAAN] 
+16.1.2023, 21:07:23 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:07:23 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:07:23 - INFO - New connected socket [id: e2P5HmuWS2Ec4EXSAAAP] 
+16.1.2023, 21:07:23 - INFO - New connected socket [id: q_yD3uemz8FcAtkNAAAR] 
+16.1.2023, 21:07:23 - INFO - Req was made 
+16.1.2023, 21:07:23 - DEBUG - Getting Toys 
+16.1.2023, 21:07:23 - INFO - Req was made 
+16.1.2023, 21:07:23 - DEBUG - Getting Toys 
+16.1.2023, 21:07:24 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: q_yD3uemz8FcAtkNAAAR] 
+16.1.2023, 21:09:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:09:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:09:21 - INFO - New connected socket [id: sUdS7JlSmn3HJOxCAAAT] 
+16.1.2023, 21:09:21 - INFO - New connected socket [id: pF4l5ITt9cMZhhmFAAAV] 
+16.1.2023, 21:09:22 - INFO - Req was made 
+16.1.2023, 21:09:22 - DEBUG - Getting Toys 
+16.1.2023, 21:09:22 - INFO - Req was made 
+16.1.2023, 21:09:22 - DEBUG - Getting Toys 
+16.1.2023, 21:09:22 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: pF4l5ITt9cMZhhmFAAAV] 
+16.1.2023, 21:09:38 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:09:38 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:09:38 - INFO - New connected socket [id: d08K-RsmLXnPiZ9-AAAX] 
+16.1.2023, 21:09:38 - INFO - New connected socket [id: ktBSSRa8HpKH_hBCAAAZ] 
+16.1.2023, 21:09:38 - INFO - Req was made 
+16.1.2023, 21:09:38 - DEBUG - Getting Toys 
+16.1.2023, 21:09:38 - INFO - Req was made 
+16.1.2023, 21:09:38 - DEBUG - Getting Toys 
+16.1.2023, 21:09:38 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: ktBSSRa8HpKH_hBCAAAZ] 
+16.1.2023, 21:09:52 - INFO - New chat msg from socket [id: ktBSSRa8HpKH_hBCAAAZ], emitting to topic null 
+16.1.2023, 21:09:54 - INFO - New chat msg from socket [id: ktBSSRa8HpKH_hBCAAAZ], emitting to topic null 
+16.1.2023, 21:09:58 - INFO - New chat msg from socket [id: ktBSSRa8HpKH_hBCAAAZ], emitting to topic null 
+16.1.2023, 21:10:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:10:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:10:52 - INFO - New connected socket [id: r-gci9M8mJCZoD2sAAAb] 
+16.1.2023, 21:10:52 - INFO - New connected socket [id: 78eNfE7qjBv-OGirAAAd] 
+16.1.2023, 21:10:52 - DEBUG - Getting Toys 
+16.1.2023, 21:10:52 - INFO - Req was made 
+16.1.2023, 21:10:52 - INFO - Req was made 
+16.1.2023, 21:10:52 - DEBUG - Getting Toys 
+16.1.2023, 21:10:53 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: 78eNfE7qjBv-OGirAAAd] 
+16.1.2023, 21:11:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:11:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:11:36 - INFO - New connected socket [id: 6ohrt6ETn7XISKpOAAAf] 
+16.1.2023, 21:11:36 - INFO - New connected socket [id: BgOin3fGuMw_jtCTAAAh] 
+16.1.2023, 21:11:36 - INFO - Req was made 
+16.1.2023, 21:11:36 - DEBUG - Getting Toys 
+16.1.2023, 21:11:36 - INFO - Req was made 
+16.1.2023, 21:11:36 - DEBUG - Getting Toys 
+16.1.2023, 21:11:36 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: BgOin3fGuMw_jtCTAAAh] 
+16.1.2023, 21:12:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:48 - INFO - New connected socket [id: 987idUXfx5kPbB0WAAAj] 
+16.1.2023, 21:12:48 - INFO - New connected socket [id: BHV7OcFgOs1HS0xiAAAl] 
+16.1.2023, 21:12:48 - INFO - Req was made 
+16.1.2023, 21:12:48 - DEBUG - Getting Toys 
+16.1.2023, 21:12:49 - DEBUG - Getting Toys 
+16.1.2023, 21:12:49 - INFO - Req was made 
+16.1.2023, 21:12:49 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: BHV7OcFgOs1HS0xiAAAl] 
+16.1.2023, 21:12:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:52 - INFO - New connected socket [id: CLNOL5p58kc0vm9lAAAn] 
+16.1.2023, 21:12:52 - INFO - New connected socket [id: YNGQEGCnsUJxoYmGAAAp] 
+16.1.2023, 21:12:52 - INFO - Req was made 
+16.1.2023, 21:12:52 - DEBUG - Getting Toys 
+16.1.2023, 21:12:52 - INFO - Req was made 
+16.1.2023, 21:12:52 - DEBUG - Getting Toys 
+16.1.2023, 21:12:53 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: YNGQEGCnsUJxoYmGAAAp] 
+16.1.2023, 21:12:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:12:57 - INFO - New connected socket [id: 9OU-LX1Udx_1O-G6AAAr] 
+16.1.2023, 21:12:57 - INFO - New connected socket [id: ZKTdz9XCus4VAPUMAAAt] 
+16.1.2023, 21:12:57 - DEBUG - Getting Toys 
+16.1.2023, 21:12:57 - INFO - Req was made 
+16.1.2023, 21:12:57 - INFO - Req was made 
+16.1.2023, 21:12:57 - DEBUG - Getting Toys 
+16.1.2023, 21:12:58 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: ZKTdz9XCus4VAPUMAAAt] 
+16.1.2023, 21:15:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:15:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:15:06 - INFO - New connected socket [id: qCCVKIGA82KEzAcpAAAv] 
+16.1.2023, 21:15:06 - INFO - New connected socket [id: oZYRmux8rlLtoqpfAAAx] 
+16.1.2023, 21:15:06 - INFO - Req was made 
+16.1.2023, 21:15:06 - DEBUG - Getting Toys 
+16.1.2023, 21:15:06 - INFO - Req was made 
+16.1.2023, 21:15:06 - DEBUG - Getting Toys 
+16.1.2023, 21:15:06 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: oZYRmux8rlLtoqpfAAAx] 
+16.1.2023, 21:15:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:15:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:15:54 - INFO - New connected socket [id: SjU39oCYSnG9CGY1AAAz] 
+16.1.2023, 21:15:54 - INFO - New connected socket [id: jEN837t30N15klPnAAA1] 
+16.1.2023, 21:15:54 - INFO - Req was made 
+16.1.2023, 21:15:54 - DEBUG - Getting Toys 
+16.1.2023, 21:15:54 - DEBUG - Getting Toys 
+16.1.2023, 21:15:54 - INFO - Req was made 
+16.1.2023, 21:15:55 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: jEN837t30N15klPnAAA1] 
+16.1.2023, 21:16:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:16:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:16:59 - INFO - New connected socket [id: QSoy00BmHoZwESxvAAA3] 
+16.1.2023, 21:16:59 - INFO - New connected socket [id: n9N1Qjq2DNueOXNzAAA5] 
+16.1.2023, 21:16:59 - INFO - Req was made 
+16.1.2023, 21:16:59 - DEBUG - Getting Toys 
+16.1.2023, 21:16:59 - INFO - Req was made 
+16.1.2023, 21:16:59 - DEBUG - Getting Toys 
+16.1.2023, 21:16:59 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: n9N1Qjq2DNueOXNzAAA5] 
+16.1.2023, 21:17:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:17:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:17:35 - INFO - New connected socket [id: UIlOPQj1RhKnAePPAAA7] 
+16.1.2023, 21:17:35 - INFO - New connected socket [id: fZBut43lhB2nX_IwAAA9] 
+16.1.2023, 21:17:35 - INFO - Req was made 
+16.1.2023, 21:17:35 - DEBUG - Getting Toys 
+16.1.2023, 21:17:35 - DEBUG - Getting Toys 
+16.1.2023, 21:17:35 - INFO - Req was made 
+16.1.2023, 21:17:36 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: fZBut43lhB2nX_IwAAA9] 
+16.1.2023, 21:18:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:18:54 - INFO - New connected socket [id: Ej-jGxykBDPnM63TAAA_] 
+16.1.2023, 21:18:54 - INFO - Req was made 
+16.1.2023, 21:18:54 - DEBUG - Getting Toys 
+16.1.2023, 21:18:54 - INFO - Req was made 
+16.1.2023, 21:18:54 - DEBUG - Getting Toys 
+16.1.2023, 21:18:55 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: Ej-jGxykBDPnM63TAAA_] 
+16.1.2023, 21:29:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:29:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:29:54 - INFO - New connected socket [id: kNPwClzMOJkDgxO6AABB] 
+16.1.2023, 21:29:54 - INFO - New connected socket [id: 6ftIdd3wjITLiwvRAABD] 
+16.1.2023, 21:29:54 - INFO - Req was made 
+16.1.2023, 21:29:54 - DEBUG - Getting Toys 
+16.1.2023, 21:29:54 - INFO - Req was made 
+16.1.2023, 21:29:54 - DEBUG - Getting Toys 
+16.1.2023, 21:29:54 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: 6ftIdd3wjITLiwvRAABD] 
+16.1.2023, 21:30:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:30:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:30:14 - INFO - New connected socket [id: owOE4k6kufhddoefAABF] 
+16.1.2023, 21:30:14 - INFO - New connected socket [id: Tazxf_7mwvsF6guJAABH] 
+16.1.2023, 21:30:14 - INFO - Req was made 
+16.1.2023, 21:30:14 - DEBUG - Getting Toys 
+16.1.2023, 21:30:14 - DEBUG - Getting Toys 
+16.1.2023, 21:30:14 - INFO - Req was made 
+16.1.2023, 21:30:14 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: Tazxf_7mwvsF6guJAABH] 
+16.1.2023, 21:30:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:30:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:30:57 - INFO - New connected socket [id: -ak_-BKHIMNUS1Y2AABJ] 
+16.1.2023, 21:30:57 - INFO - New connected socket [id: XePE-7egEpQn-AvtAABL] 
+16.1.2023, 21:30:57 - INFO - Req was made 
+16.1.2023, 21:30:57 - DEBUG - Getting Toys 
+16.1.2023, 21:30:57 - INFO - Req was made 
+16.1.2023, 21:30:57 - DEBUG - Getting Toys 
+16.1.2023, 21:30:57 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: XePE-7egEpQn-AvtAABL] 
+16.1.2023, 21:36:04 - INFO - New chat msg from socket [id: XePE-7egEpQn-AvtAABL], emitting to topic null 
+16.1.2023, 21:36:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:36:36 - INFO - New connected socket [id: SMK-XyUi6KBcZ_TQAABN] 
+16.1.2023, 21:36:39 - INFO - Req was made 
+16.1.2023, 21:36:39 - DEBUG - Getting Toys 
+16.1.2023, 21:36:39 - INFO - Req was made 
+16.1.2023, 21:36:39 - DEBUG - Getting Toys 
+16.1.2023, 21:36:46 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 21:36:46 - INFO - User login:  | {"_id":"63c41352e31f710b98c41695","username":"admin","fullname":"admin","score":0} 
+16.1.2023, 21:36:46 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: SMK-XyUi6KBcZ_TQAABN] 
+16.1.2023, 21:37:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:37:28 - INFO - New connected socket [id: Oc_787_dckDep0WbAABP] 
+16.1.2023, 21:37:29 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: Oc_787_dckDep0WbAABP] 
+16.1.2023, 21:40:01 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:40:01 - INFO - New connected socket [id: orQ_N6hE4kxjJ2-YAABR] 
+16.1.2023, 21:40:02 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: orQ_N6hE4kxjJ2-YAABR] 
+16.1.2023, 21:41:02 - DEBUG - Getting Toys 
+16.1.2023, 21:41:02 - INFO - Req was made 
+16.1.2023, 21:41:02 - INFO - Req was made 
+16.1.2023, 21:41:02 - DEBUG - Getting Toys 
+16.1.2023, 21:41:12 - INFO - Req was made 
+16.1.2023, 21:41:12 - DEBUG - Getting Toys 
+16.1.2023, 21:41:12 - INFO - Req was made 
+16.1.2023, 21:41:12 - DEBUG - Getting Toys 
+16.1.2023, 21:41:13 - INFO - Req was made 
+16.1.2023, 21:41:13 - DEBUG - Getting Toys 
+16.1.2023, 21:41:13 - INFO - Req was made 
+16.1.2023, 21:41:13 - DEBUG - Getting Toys 
+16.1.2023, 21:41:39 - INFO - Req was made 
+16.1.2023, 21:41:39 - DEBUG - Getting Toys 
+16.1.2023, 21:41:42 - INFO - Req was made 
+16.1.2023, 21:41:42 - DEBUG - Getting Toys 
+16.1.2023, 21:45:24 - INFO - Socket is leaving topic [object Object] [id: orQ_N6hE4kxjJ2-YAABR] 
+16.1.2023, 21:46:46 - INFO - Socket is leaving topic 63c1cb01199472c83e693b22 [id: orQ_N6hE4kxjJ2-YAABR] 
+16.1.2023, 21:51:36 - INFO - Req was made 
+16.1.2023, 21:51:36 - DEBUG - Getting Toys 
+16.1.2023, 21:51:36 - INFO - Req was made 
+16.1.2023, 21:51:36 - DEBUG - Getting Toys 
+16.1.2023, 21:51:56 - DEBUG - Getting Toys 
+16.1.2023, 21:51:56 - INFO - Req was made 
+16.1.2023, 21:51:56 - DEBUG - Getting Toys 
+16.1.2023, 21:51:56 - INFO - Req was made 
+16.1.2023, 21:51:58 - INFO - Socket is leaving topic 63c11237199472c83e693b1b [id: orQ_N6hE4kxjJ2-YAABR] 
+16.1.2023, 22:17:17 - INFO - Server is running on port: 3030 
+16.1.2023, 22:17:19 - INFO - New connected socket [id: fnLmGfKcSJG1IyqKAAAB] 
+16.1.2023, 22:17:19 - INFO - New connected socket [id: uFsaCJndK5QMfrFkAAAD] 
+16.1.2023, 22:17:19 - INFO - Server is running on port: 3030 
+16.1.2023, 22:17:20 - INFO - New connected socket [id: JjMC7dNEV_avfACTAAAB] 
+16.1.2023, 22:17:21 - INFO - New connected socket [id: q4icjltXb6sBI_UNAAAD] 
+16.1.2023, 22:18:50 - INFO - New chat msg from socket [id: JjMC7dNEV_avfACTAAAB], emitting to topic undefined 
+16.1.2023, 22:19:34 - INFO - Server is running on port: 3030 
+16.1.2023, 22:19:35 - INFO - New connected socket [id: doJJ1J2nnVG1lYgtAAAB] 
+16.1.2023, 22:19:36 - INFO - Server is running on port: 3030 
+16.1.2023, 22:19:36 - INFO - New connected socket [id: BXZZJhzpYEnKpf6-AAAB] 
+16.1.2023, 22:19:37 - INFO - New connected socket [id: zUxCt-z52kBDE2ZaAAAD] 
+16.1.2023, 22:19:56 - INFO - Server is running on port: 3030 
+16.1.2023, 22:19:56 - INFO - New connected socket [id: NTqWYh9PoK5KBOfpAAAB] 
+16.1.2023, 22:19:59 - INFO - Server is running on port: 3030 
+16.1.2023, 22:20:01 - INFO - New connected socket [id: 9jQxdWj7FNaHL2nlAAAB] 
+16.1.2023, 22:20:01 - INFO - New connected socket [id: CMX5dC9jsjg1Bl2MAAAD] 
+16.1.2023, 22:20:08 - INFO - Server is running on port: 3030 
+16.1.2023, 22:20:10 - INFO - New connected socket [id: VA3m9DwtLrM1GW9MAAAB] 
+16.1.2023, 22:20:12 - INFO - New connected socket [id: Ydc-yg1InjkJBog3AAAD] 
+16.1.2023, 22:20:13 - INFO - New chat msg from socket [id: VA3m9DwtLrM1GW9MAAAB], emitting to topic undefined 
+16.1.2023, 22:22:27 - INFO - New chat msg from socket [id: VA3m9DwtLrM1GW9MAAAB], emitting to topic undefined 
+16.1.2023, 22:23:58 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:23:59 - INFO - New connected socket [id: 5F3cozA6r53UMx35AAAF] 
+16.1.2023, 22:23:59 - INFO - Req was made 
+16.1.2023, 22:23:59 - DEBUG - Getting Toys 
+16.1.2023, 22:23:59 - INFO - Req was made 
+16.1.2023, 22:23:59 - DEBUG - Getting Toys 
+16.1.2023, 22:23:59 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: 5F3cozA6r53UMx35AAAF] 
+16.1.2023, 22:25:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:25:36 - INFO - New connected socket [id: 2l7H4o-nDe1oPmHKAAAH] 
+16.1.2023, 22:25:36 - INFO - Req was made 
+16.1.2023, 22:25:36 - DEBUG - Getting Toys 
+16.1.2023, 22:25:36 - INFO - Req was made 
+16.1.2023, 22:25:36 - DEBUG - Getting Toys 
+16.1.2023, 22:25:37 - INFO - Setting socket.userId = 63c41352e31f710b98c41695 for socket [id: 2l7H4o-nDe1oPmHKAAAH] 
+16.1.2023, 22:25:41 - INFO - New chat msg from socket [id: 2l7H4o-nDe1oPmHKAAAH], emitting to topic 63c11237199472c83e693b1b 
+16.1.2023, 22:26:28 - INFO - Removing socket.userId for socket [id: 2l7H4o-nDe1oPmHKAAAH] 
+16.1.2023, 22:26:35 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 22:26:35 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 22:26:35 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:26:35 - INFO - New connected socket [id: K2ctp3GSXSBOuYtyAAAJ] 
+16.1.2023, 22:26:37 - INFO - Req was made 
+16.1.2023, 22:26:37 - DEBUG - Getting Toys 
+16.1.2023, 22:26:37 - INFO - Req was made 
+16.1.2023, 22:26:37 - DEBUG - Getting Toys 
+16.1.2023, 22:28:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:28:55 - INFO - New connected socket [id: ayOpDQihNRbf86NUAAAL] 
+16.1.2023, 22:28:55 - INFO - Req was made 
+16.1.2023, 22:28:55 - DEBUG - Getting Toys 
+16.1.2023, 22:28:55 - INFO - Req was made 
+16.1.2023, 22:28:55 - DEBUG - Getting Toys 
+16.1.2023, 22:30:11 - INFO - Req was made 
+16.1.2023, 22:30:11 - DEBUG - Getting Toys 
+16.1.2023, 22:30:11 - DEBUG - Getting Toys 
+16.1.2023, 22:30:11 - INFO - Req was made 
+16.1.2023, 22:30:22 - DEBUG - auth.service - login with username: admin 
+16.1.2023, 22:30:22 - ERROR - Failed to Login Invalid username or password 
+16.1.2023, 22:30:22 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:30:23 - INFO - New connected socket [id: 1iOjv-Xisr11t_UTAAAN] 
+16.1.2023, 22:30:42 - INFO - Req was made 
+16.1.2023, 22:30:42 - DEBUG - Getting Toys 
+16.1.2023, 22:30:42 - INFO - Req was made 
+16.1.2023, 22:30:42 - DEBUG - Getting Toys 
+16.1.2023, 22:31:29 - INFO - Req was made 
+16.1.2023, 22:31:29 - DEBUG - Getting Toys 
+16.1.2023, 22:31:29 - INFO - Req was made 
+16.1.2023, 22:31:29 - DEBUG - Getting Toys 
+16.1.2023, 22:32:04 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:32:04 - INFO - New connected socket [id: 3a8BYg9JnToow_pQAAAP] 
+16.1.2023, 22:32:04 - INFO - Req was made 
+16.1.2023, 22:32:04 - DEBUG - Getting Toys 
+16.1.2023, 22:32:04 - INFO - Req was made 
+16.1.2023, 22:32:04 - DEBUG - Getting Toys 
+16.1.2023, 22:32:49 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 22:32:54 - INFO - Socket disconnected [id: undefined] 

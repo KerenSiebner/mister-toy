@@ -1,6 +1,10 @@
 // import axios from 'axios'
 import { storageService } from './async-storage.service.js'
 import { httpService } from './http.service.js'
+import { socketService, SOCKET_EVENT_USER_UPDATED, SOCKET_EMIT_USER_WATCH } from './socket.service'
+import { showSuccessMsg } from '../services/event-bus.service'
+import { store } from '../store/store'
+
 
 const STORAGE_KEY = 'user'
 const STORAGE_KEY_LOGGEDIN = 'loggedinUser'
@@ -22,57 +26,63 @@ export const userService = {
 window.us = userService
 
 function getUsers() {
-    return storageService.query('user')
-    // return httpService.get(`user`)
+    // return storageService.query('user')
+    return httpService.get(`user`)
 }
 
-function getById(userId) {
-    return storageService.get(STORAGE_KEY, userId)
+function onUserUpdate(user) {
+    showSuccessMsg(`This user ${user.fullname} just got updated from socket, new score: ${user.score}`)
+    store.dispatch({ type: 'SET_WATCHED_USER', user })
+}
+
+async function getById(userId) {
+    // const user = await storageService.get(STORAGE_KEY, userId)
+    const user = await httpService.get(`user/${userId}`)
+
+    socketService.emit(SOCKET_EMIT_USER_WATCH, userId)
+    socketService.off(SOCKET_EVENT_USER_UPDATED, onUserUpdate)
+    socketService.on(SOCKET_EVENT_USER_UPDATED, onUserUpdate)
+
+    return user
 }
 
 async function login(credentials) {
-    const users = await storageService.query('user')
-    const user = users.find(user => user.username === credentials.username)
-    // const user = await httpService.post('auth/login', credentials)
+    // const users = await storageService.query('user')
+    // const user = users.find(user => user.username === credentials.username)
+    const user = await httpService.post('auth/login', credentials)
     if (user) {
-        // socketService.login(user._id)
+        socketService.login(user._id)
         return saveLocalUser(user)
     }
 }
 
 async function signup(credentials) {
-    credentials.score = 10000
+    credentials.score = 100
     // if (!credentials.imgUrl) credentials.imgUrl = 'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png'
-    const user = await storageService.post('user', credentials)
-    // const user = await httpService.post('auth/signup', credentials)
-    // socketService.login(user._id)
+    // const user = await storageService.post('user', credentials)
+    const user = await httpService.post('auth/signup', credentials)
+    socketService.login(user._id)
     return saveLocalUser(user)
-    // const user = { username, password, fullname }
-    // return httpService.post(BASE_URL + 'signup', user)
-    //     .then(_setLoggedinUser)
 }
 
-function logout() {
+async function logout() {
     sessionStorage.removeItem(STORAGE_KEY_LOGGEDIN)
-
-    // return httpService.post(BASE_URL + 'logout')
-    //     .then(() => {
-    //         sessionStorage.removeItem(STORAGE_KEY_LOGGEDIN)
-    //     })
+    socketService.logout()
+    return await httpService.post(BASE_URL + 'logout')
 }
 
 function remove(userId) {
-    return storageService.remove('user', userId)
-    // return httpService.delete(`user/${userId}`)
+    // return storageService.remove('user', userId)
+    return httpService.delete(`user/${userId}`)
 }
 
 async function update({ _id, score }) {
     console.log('_id', _id)
-    const user = await storageService.get('user', _id)
-    user.score = score
-    await storageService.put('user', user)
+    // const user = await storageService.get('user', _id)
+    // user.score = score
+    // await storageService.put('user', user)
 
-    // const user = await httpService.put(`user/${_id}`, {_id, score})
+    const user = await httpService.put(`user/${_id}`, {_id, score})
     // Handle case in which admin updates other user's details
     if (getLoggedinUser()._id === user._id) saveLocalUser(user)
     return user
@@ -106,9 +116,9 @@ function _setLoggedinUser(user) {
 // userService.signup({username: 'muki', password: 'muki1', fullname: 'Muki Ja'})
 // userService.login({username: 'muki', password: 'muki1'})
 
-(async () => {
-    await userService.signup({ fullname: 'Puki Norma', username: 'puki', password: '123', score: 10000, isAdmin: false })
-    await userService.signup({ fullname: 'Master Adminov', username: 'admin', password: '123', score: 10000, isAdmin: true })
-    await userService.signup({ fullname: 'Muki G', username: 'muki', password: '123', score: 10000 })
-})()
+// (async () => {
+//     await userService.signup({ fullname: 'Puki Norma', username: 'puki', password: '123', score: 10000, isAdmin: false })
+//     await userService.signup({ fullname: 'Master Adminov', username: 'admin', password: '123', score: 10000, isAdmin: true })
+//     await userService.signup({ fullname: 'Muki G', username: 'muki', password: '123', score: 10000 })
+// })()
 

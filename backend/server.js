@@ -29,6 +29,8 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes.js')
 const toyRoutes = require('./api/toy/toy.routes.js')
 const userRoutes = require('./api/user/user.routes.js')
+const {setupSocketAPI} = require('./services/socket.service.js')
+
 
 // routes
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware.js')
@@ -37,6 +39,7 @@ app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/toy', toyRoutes)
 app.use('/api/user', userRoutes)
+setupSocketAPI(http)
 
 
 // Make every server-side-route to match the index.html
